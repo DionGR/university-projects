@@ -1,0 +1,1218 @@
+|alu16
+a[0] => ALU1:G0:0:alu.a
+a[1] => ALU1:G0:1:alu.a
+a[2] => ALU1:G0:2:alu.a
+a[3] => ALU1:G0:3:alu.a
+a[4] => ALU1:G0:4:alu.a
+a[5] => ALU1:G0:5:alu.a
+a[6] => ALU1:G0:6:alu.a
+a[7] => ALU1:G0:7:alu.a
+a[8] => ALU1:G0:8:alu.a
+a[9] => ALU1:G0:9:alu.a
+a[10] => ALU1:G0:10:alu.a
+a[11] => ALU1:G0:11:alu.a
+a[12] => ALU1:G0:12:alu.a
+a[13] => ALU1:G0:13:alu.a
+a[14] => ALU1:G0:14:alu.a
+a[15] => ALU1:G0:15:alu.a
+a[15] => xor_2:checkOverflow1.in1
+a[15] => xor_2:checkOverflow1.in2
+b[0] => ALU1:G0:0:alu.b
+b[1] => ALU1:G0:1:alu.b
+b[2] => ALU1:G0:2:alu.b
+b[3] => ALU1:G0:3:alu.b
+b[4] => ALU1:G0:4:alu.b
+b[5] => ALU1:G0:5:alu.b
+b[6] => ALU1:G0:6:alu.b
+b[7] => ALU1:G0:7:alu.b
+b[8] => ALU1:G0:8:alu.b
+b[9] => ALU1:G0:9:alu.b
+b[10] => ALU1:G0:10:alu.b
+b[11] => ALU1:G0:11:alu.b
+b[12] => ALU1:G0:12:alu.b
+b[13] => ALU1:G0:13:alu.b
+b[14] => ALU1:G0:14:alu.b
+b[15] => ALU1:G0:15:alu.b
+operationCode[0] => controller:Step0.opcode[0]
+operationCode[1] => controller:Step0.opcode[1]
+operationCode[2] => controller:Step0.opcode[2]
+res[0] << ALU1:G0:0:alu.f
+res[1] << ALU1:G0:1:alu.f
+res[2] << ALU1:G0:2:alu.f
+res[3] << ALU1:G0:3:alu.f
+res[4] << ALU1:G0:4:alu.f
+res[5] << ALU1:G0:5:alu.f
+res[6] << ALU1:G0:6:alu.f
+res[7] << ALU1:G0:7:alu.f
+res[8] << ALU1:G0:8:alu.f
+res[9] << ALU1:G0:9:alu.f
+res[10] << ALU1:G0:10:alu.f
+res[11] << ALU1:G0:11:alu.f
+res[12] << ALU1:G0:12:alu.f
+res[13] << ALU1:G0:13:alu.f
+res[14] << ALU1:G0:14:alu.f
+res[15] << ALU1:G0:15:alu.f
+carryOut << carryOut.DB_MAX_OUTPUT_PORT_TYPE
+isOVerflow << xor_2:checkOverflow3.out1
+
+
+|alu16|controller:Step0
+opcode[0] => Mux0.IN10
+opcode[0] => Mux1.IN10
+opcode[0] => Mux3.IN10
+opcode[0] => Mux4.IN10
+opcode[1] => Mux0.IN9
+opcode[1] => Mux1.IN9
+opcode[1] => Mux2.IN5
+opcode[1] => Mux3.IN9
+opcode[1] => Mux4.IN9
+opcode[2] => Mux0.IN8
+opcode[2] => Mux1.IN8
+opcode[2] => Mux2.IN4
+opcode[2] => Mux3.IN8
+opcode[2] => Mux4.IN8
+Ainvert <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Binvert <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+operation[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+operation[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+carryIn <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:0:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:0:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:1:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:1:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:2:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:2:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:3:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:3:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:4:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:4:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:5:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:5:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:6:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:6:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:7:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:7:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:8:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:8:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:9:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:9:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:10:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:10:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:11:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:11:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:12:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:12:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:13:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:13:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:14:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:14:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu
+a => mux2to1:Step0.in1
+a => mux2to1:Step0.in2
+b => mux2to1:Step1.in1
+b => mux2to1:Step1.in2
+aInvert => mux2to1:Step0.s
+bInvert => mux2to1:Step1.s
+cIn => fullAdder:Step4.Cin
+s[0] => mux4to1Component:Step6.s[0]
+s[1] => mux4to1Component:Step6.s[1]
+f <= mux4to1Component:Step6.res
+cOut <= fullAdder:Step4.Cout
+
+
+|alu16|ALU1:\G0:15:alu|mux2to1:Step0
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|mux2to1:Step1
+in1 => f.DATAB
+in2 => f.DATAA
+s => f.OUTPUTSELECT
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|and_2:Step2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|or_2:Step3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|fullAdder:Step4
+Cin => s.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+in1 => s.IN0
+in1 => Cout.IN0
+in1 => Cout.IN1
+in2 => s.IN1
+in2 => Cout.IN1
+in2 => Cout.IN1
+s <= s.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|xor_2:Step5
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|ALU1:\G0:15:alu|mux4to1Component:Step6
+w0 => Mux0.IN0
+w1 => Mux0.IN1
+w2 => Mux0.IN2
+w3 => Mux0.IN3
+s[0] => Mux0.IN5
+s[1] => Mux0.IN4
+res <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|xor_2:checkOverflow1
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|xor_2:checkoverflow2
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu16|xor_2:checkOverflow3
+in1 => out1.IN0
+in2 => out1.IN1
+out1 <= out1.DB_MAX_OUTPUT_PORT_TYPE
+
+
