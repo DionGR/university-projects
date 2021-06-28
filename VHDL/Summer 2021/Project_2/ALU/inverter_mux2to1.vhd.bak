@@ -1,0 +1,24 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+package inverter_mux2to1 is
+
+	component inverter_mux2to1
+		port (in1, in2 	: in std_logic;
+				s				: in std_logic;
+				invertRes 	: out std_logic);
+	end component;
+	
+-- AND Gate Component Initialization 
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+entity AND_2 is
+	port (in1, in2 : in std_logic; 
+			andRes	: out std_logic);
+end AND_2;
+
+architecture and_behavior of AND_2 is
+begin
+	andRes<= in1 and in2;
+end and_behavior;

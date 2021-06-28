@@ -1,0 +1,17 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+PACKAGE fullAdd
+	COMPONENT fullAdd
+		PORT ( Cin, in1, in2 : IN STD_LOGIC;
+				 s, Cout 		: OUT STD_LOGIC );
+	
+ENTITY fullAdd IS
+PORT ( Cin, x, y : IN STD_LOGIC ;
+s, Cout : OUT STD_LOGIC ) ;
+END fullAdd ;
+ARCHITECTURE LogicFunc OF fullAdd IS
+BEGIN
+s <= x XOR y XOR Cin ; --αποτέλεσμα αθροίσματος
+Cout <= (x AND y) OR (Cin AND x) OR (Cin AND y) ; --κρατούμενο άθροισης
+END LogicFunc ;
