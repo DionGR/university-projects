@@ -1,0 +1,23 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+PACKAGE fullAdd IS
+	COMPONENT fullAdder
+		PORT (Cin, in1, in2 : IN STD_LOGIC;
+				 s, Cout 		: OUT STD_LOGIC);
+	END COMPONENT;
+END PACKAGE fullAdd;
+	
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+ENTITY fullAdder IS
+	PORT ( Cin, in1, in2 : IN STD_LOGIC;
+			 s, Cout   		: OUT STD_LOGIC );
+END fullAdder;
+
+ARCHITECTURE fullAdd_behavior OF fullAdder IS
+BEGIN
+	s <= in1 XOR in2 XOR Cin;
+	Cout <= (in1 AND in2) OR (Cin AND in1) OR (Cin AND in2);
+END fullAdd_behavior;
