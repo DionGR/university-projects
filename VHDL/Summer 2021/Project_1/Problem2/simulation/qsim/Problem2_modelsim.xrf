@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/Users/Dion/Documents/Programming/Quartus II/Problem 2/Problem2.bdf
+source_file = 1, D:/Users/Dion/Documents/Programming/Quartus II/Problem 2/db/Problem2.cbx.xml
+design_name = Problem2
+instance = comp, \x1~I , x1, Problem2, 1
+instance = comp, \x4~I , x4, Problem2, 1
+instance = comp, \x3~I , x3, Problem2, 1
+instance = comp, \x2~I , x2, Problem2, 1
+instance = comp, \SOP~0 , SOP~0, Problem2, 1
+instance = comp, \f~I , f, Problem2, 1
