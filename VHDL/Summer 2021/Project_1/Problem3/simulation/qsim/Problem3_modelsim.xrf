@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Quartus/Problem3/Problem3.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Quartus/Problem3/db/Problem3.cbx.xml
+design_name = Problem3
+instance = comp, \x3~I\, x3, Problem3, 1
+instance = comp, \x4~I\, x4, Problem3, 1
+instance = comp, \x1~I\, x1, Problem3, 1
+instance = comp, \x2~I\, x2, Problem3, 1
+instance = comp, \f~0\, f~0, Problem3, 1
+instance = comp, \f~I\, f, Problem3, 1
