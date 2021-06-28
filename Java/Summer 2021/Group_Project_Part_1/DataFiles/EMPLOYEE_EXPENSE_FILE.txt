@@ -1,0 +1,124 @@
+EXPENSE_LIST
+{
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0001"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "01A"
+        REASON "4 Seasons Croatia, 8 nights"
+        VAL 14
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0001"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "01B"
+        REASON "Taxi to work"
+        VAL 150
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0001"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "02B"
+        REASON "Monthly transportation card"
+        VAL 45
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0001"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "03B"
+        REASON "Client lunch"
+        VAL 300
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0002"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "02A"
+        REASON "Trip to Sofia"
+        VAL 20
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0002"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "01A"
+        REASON "Hilton Hotel Sofia"
+        VAL 5
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0002"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "03A"
+        REASON "Worked on Holidays"
+        VAL 10
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0002"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "03B"
+        REASON "Lunch in Sofia"
+        VAL 30
+    }
+
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0003"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "01A"
+        REASON "Hilton Hotel Thessaloniki"
+        VAL 3
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0003"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "01B"
+        REASON "Taxi to work"
+        VAL 25
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0003"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "03A"
+        REASON "Worked 10 extra hours"
+        VAL 10
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0003"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "02A"
+        REASON "Trip to our HQ in Thessaloniki"
+        VAL 15
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0004"
+        EXPENSE_TYPE 2
+        EXPENSE_CODE "02B"
+        REASON "Monthly transportation card"
+        VAL 45
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0004"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "03A"
+        REASON "Worked 3 extra hours"
+        VAL 3
+    }
+    EXPENSE
+    {
+        EMPLOYEE_CODE "0004"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "01A"
+        REASON "Grand Britannia Athens"
+        VAL 5
+    }
+}

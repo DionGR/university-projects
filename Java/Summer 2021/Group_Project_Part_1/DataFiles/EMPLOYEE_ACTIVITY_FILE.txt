@@ -1,0 +1,35 @@
+TRN_LIST
+{
+    TRN
+    {
+        EMPLOYEE_CODE 0001
+        TYPE "PROKATAVOLI"
+        VAL 150
+    }
+    TRN
+    {
+        EMPLOYEE_CODE 0002
+        TYPE "APOZIMIOSI"
+        EXPENSE_TYPE 1
+        EXPENSE_CODE "01A"
+        VAL 75
+    }
+    TRN
+    {
+        EMPLOYEE_CODE 0003
+        TYPE "DIAFORA"
+        VAL 25
+    }
+    TRN
+    {
+        EMPLOYEE_CODE 0004
+        TYPE "FINAL_APOZIMIOSI"
+        VAL 50
+    }
+    TRN
+    {
+        EMPLOYEE_CODE 0001
+        TYPE "PROKATAVOLI"
+        VAL 43.0
+    }
+}
