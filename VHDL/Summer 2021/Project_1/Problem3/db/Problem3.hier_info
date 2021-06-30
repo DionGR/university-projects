@@ -1,8 +1,0 @@
-|Problem3
-x1 => f.IN0
-x2 => f.IN1
-x3 => f.IN0
-x4 => f.IN1
-f << f.DB_MAX_OUTPUT_PORT_TYPE
-
-
