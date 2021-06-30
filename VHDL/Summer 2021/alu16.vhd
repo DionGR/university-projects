@@ -31,7 +31,7 @@ begin
 	
 	-- carryOut is 0 if we ADD/SUB, elsewhere its c(16)
 	carryOut <= c(16) when operation = "10" else '0';
-	
+	 
 	-- overflow check
 	checkOverflow1: xor_2 port map (a(15), a(15), isOverflow1);
 	checkoverflow2: xor_2 port map (isOverflow1, c(15), isOverflow2);
