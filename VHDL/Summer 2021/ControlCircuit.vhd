@@ -1,13 +1,10 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
--- ορίζουμε το ControlCircuit package που χρησιμοποιείται για να δείξουμε ποια πράξη διαλέξαμε
+-- The ControlCircuit package controls which operation we'll do
 package ControlCircuit is
 	component controller
-		-- opcode είναι ο κωδικός της πράξης
-		-- Ainvert, Binvert είναι οι δύο είσοδοι
-		-- operation είναι ποιά πράξη έχει επιλεχτεί
-		-- carryIn είναι το κρατούμενο
+		-- opcode = operation code (i.e. ADD/SUB/XOR)
 		port (opcode: in std_logic_vector(2 downto 0);
 				Ainvert, Binvert: out std_logic;
 				operation: out std_logic_vector(1 downto 0);
@@ -15,7 +12,6 @@ package ControlCircuit is
 	end component;
 end package ControlCircuit;
 
--- ορίζουμε το controller entity
 library ieee;
 use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
@@ -31,7 +27,6 @@ end controller;
 
 architecture behavioral of controller is
 begin
--- ελέγχουμε τις περιπτώσεις με βάση τον δωσμένο πίνακα
 	process (opcode)
 	begin
 		case opcode is
