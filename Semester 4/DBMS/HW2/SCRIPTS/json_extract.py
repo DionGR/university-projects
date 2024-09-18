@@ -39,3 +39,4 @@ with open(csv_file, 'w+', encoding='utf-8') as csv_file:
                 keyword_id = dictionary['id']
                 name = dictionary['name']
                 csvwriter.writerow([keyword_id, name])
+
