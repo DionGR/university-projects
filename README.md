@@ -21,14 +21,14 @@ A graduate Natural Language Processing project that focuses on an end-to-end ana
 
 ## Software Engineering
 
-### Duel of Fates - Turn Based Multiplayer Card Game [[link]](https://github.com/DionGR/duel-of-fates)
+### Duel of Fates - Turn Based Multiplayer Card Game [[link](https://github.com/DionGR/duel-of-fates)]
 
 An Android-based multiplayer card game that was developed using best practices in Software Engineering. The most notable aspect of this project is the extensive design documents that describe the architecture of the game as well as the reasoning behind the design decisions.
 
-### Tempo Activity Tracker [[link]](https://github.com/DionGR/distributed-activity-tracker)
+### Tempo Activity Tracker [[link](https://github.com/DionGR/distributed-activity-tracker)]
 
 An Android-based activity tracker that was developed as part of a distributed systems course. The project focuses on the implementation of map-reduce from scratch in Java using a master-worker architecture and a client that interacts with the server. 
 
-### Chess SGG [[link]](https://github.com/DionGR/Chess_SGG)
+### Chess SGG [[link](https://github.com/DionGR/Chess_SGG)]
 
 A C++ project that implements a chess game using Simple Graphics Game library. The project focuses on the implementation of a chess game with a GUI with a focus on game logic.
