@@ -1,7 +1,7 @@
 # University Projects
 
 ## Description
-A repository that contains projects I developed during my studies as a Computer Science undergraduate at the [Athens University of Economics and Business](https://www.dept.aueb.gr/en/infotech-overview-en)]. It also includes projects from my Erasmus+ exchange in the graduate Computer Science program at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) at Trondheim.
+A repository that contains projects I developed during my studies as a Computer Science undergraduate at the [Athens University of Economics and Business](https://www.dept.aueb.gr/en/infotech-overview-en). It also includes projects from my Erasmus+ exchange in the graduate Computer Science program at the [Norwegian University of Science and Technology](https://www.ntnu.edu/) at Trondheim.
 
 Some projects are notable, some are in Greek, and some might not even be functioning, as this repository is mostly used as an archive.
 
