@@ -32,3 +32,7 @@ An Android-based activity tracker that was developed as part of a distributed sy
 #### Chess SGG [[link](https://github.com/DionGR/Chess_SGG)]
 
 A C++ project that implements a chess game using Simple Graphics Game library. The project focuses on the implementation of a chess game with a GUI with a focus on game logic.
+
+### License
+
+[GNU 2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
