@@ -1,0 +1,55 @@
+EXPENSE_TYPE_LIST
+{
+    EXPENSE_TYPE
+    {
+        TYPE 1
+        CODE "01A"
+        DESCR "Hotel Stay"
+        MAXMONTHLYSEVERANCE 750
+        VALUEPERUNIT 75
+        UNITTYPE "Nights Spent"
+    }
+    EXPENSE_TYPE
+    {
+        TYPE 1
+        CODE "02A"
+        DESCR "Car Travel"
+        MAXMONTHLYSEVERANCE 160
+        VALUEPERUNIT 1.60
+        UNITTYPE "Liters of Fuel Spent"
+    }
+    EXPENSE_TYPE
+    {
+        TYPE 1
+        CODE "03A"
+        DESCR "Overtime performed by Employee"
+        MAXMONTHLYSEVERANCE 540
+        VALUEPERUNIT 27
+        UNITTYPE "hour"
+    }
+
+    EXPENSE_TYPE
+    {
+        TYPE 2
+        CODE "01B"
+        DESCR "Cabfare"
+        MAXMONTHLYSEVERANCE 100
+        SEVERANCEPERCENTAGE 75
+    }
+    EXPENSE_TYPE
+    {
+        TYPE 2
+        CODE "02B"
+        DESCR "Public Transportation"
+        MAXMONTHLYSEVERANCE 50
+        SEVERANCEPERCENTAGE 100
+    }
+    EXPENSE_TYPE
+    {
+        TYPE 2
+        CODE "03B"
+        DESCR "Meal on work hours"
+        MAXMONTHLYSEVERANCE 120
+        SEVERANCEPERCENTAGE 80
+    }
+}

@@ -1,0 +1,1 @@
+The main project can be found in the repository [duel-of-fates](https://github.com/DionGR/duel-of-fates).

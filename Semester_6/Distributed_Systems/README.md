@@ -1,0 +1,1 @@
+Project available in [repository](https://github.com/DionGR/distributed-activity-tracker).

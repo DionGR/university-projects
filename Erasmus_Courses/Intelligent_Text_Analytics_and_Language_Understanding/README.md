@@ -1,0 +1,1 @@
+The main project can be found in the repository [greek-pm-topic-modeling](https://github.com/DionGR/greek-pm-topic-modeling).

@@ -1,0 +1,65 @@
+-- AND Gate
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity AND_2 is
+	port (in1, in2: in std_logic; out1: out std_logic);
+end AND_2;
+
+architecture and_struct of AND_2 is
+begin
+	out1 <= in1 and in2;
+end and_struct;
+
+-- OR gate
+
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity OR_2 is
+	port (in1, in2: in std_logic; out1: out std_logic);
+end OR_2;
+
+architecture or_struct of OR_2 is
+begin
+	out1 <= in1 or in2;
+end or_struct;
+	
+-- Main program
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity ask1 is
+	port (x1, x2, x3, x4, x5: in std_logic;
+			f: out std_logic);
+end ask1;
+
+
+architecture structural of ask1 is
+	component AND_2
+		port(in1, in2: in std_logic;
+				out1: out std_logic);
+	end component;
+	component OR_2
+		port (in1, in2: in std_logic;
+				out1: out std_logic);
+	end component;
+	signal A1,A2,A2_1,A3,A3_1,A4,A4_1,A5,A5_1,A5_2,O1,O2,O3:std_logic;
+	
+begin
+	U1:AND_2 port map (NOT x3, NOT x5, A1);
+	U2:AND_2 port map (x3, NOT x4, A2_1);
+	U3:AND_2 port map (A2_1, NOT x5, A2);
+	U4:AND_2 port map (NOT x1, NOT x2, A3_1);
+	U5:AND_2 port map (A3_1, NOT x4, A3);
+	U6:AND_2 port map (x2, x4, A4_1);
+	U7:AND_2 port map (A4_1, x5, A4);
+	U8:AND_2 port map (x3, x4, A5_1);
+	U9:AND_2 port map (NOT x1, x2, A5_2);
+	U10:AND_2 port map (A5_1, A5_2, A5);
+	U11:OR_2 port map (A1, A2, o1);
+	U12:OR_2 port map (A3, A4, o2);
+	U13:OR_2 port map (o1, o2, o3);
+	U14:OR_2 port map (o3, A5, f);
+	--f <= (NOT x3 AND NOT x5) OR (x3 AND not x4 and not x5) OR (x3 AND NOT x1 AND x2 AND NOT x5) OR (NOT x4 AND NOT x1 AND NOT x2 AND x5) OR (x4 AND x2 AND x5);
+end structural;

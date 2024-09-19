@@ -1,0 +1,863 @@
+NAVCOID	CAMPAIGN	LOCATION	BYEAR	EYEAR	TARGET	SUCCESS	LIMITED	FAILURE	ONGOING	NONVIOL	VIOL	REGCHANGE	FSELFDET	SECESSION	OTHER	DURATION	PARTICIPATION	PERCENTAGEPOPULARPARTICIPATION	REGVIOL	DEFECT	VIOLENTFLANK	VIOLSIM	REGAID	STATESUP
+4.0	"Afghans"	"Afghanistan"	1978.0	1979.0	"Afghan government"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	613.0	10000.0	6.41025641025641E-4	1.0	1.0		1.0	1.0	1.0
+3.0	"Afghan resistance"	"Afghanistan"	1980.0	1989.0	"Soviet occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	3281.0	10000.0	6.849315068493151E-4	1.0	0.0		1.0	0.0	1.0
+218.0	"Taliban/anti-government forces"	"Afghanistan"	1992.0	1996.0	"Afghan regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1370.0	20000.0	8.928571428571428E-4	1.0	0.0		1.0	0.0	0.0
+217.0	"Taliban"	"Afghanistan"	2001.0	2014.0	"Afghan government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	4391.0	60000.0	0.001625087494033559	1.0	1.0		1.0	1.0	0.0
+5.0	"Albanian anti-communist"	"Albania"	1990.0	1991.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	442.0	300000.0	0.09106840542561274	1.0	0.0	0.0	1.0	1.0	0.0
+6.0	"Algerian Revolt/National Liberation Front"	"Algeria"	1954.0	1962.0	"French occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	2695.0	39000.0	0.0035454545454545456	1.0	0.0		1.0	0.0	1.0
+82.0	"former rebel leaders"	"Algeria"	1962.0	1963.0	"Ben Bella regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	171.0	40000.0	0.0035398230088495575	1.0	1.0		1.0	0.0	0.0
+106.0	"Islamic Salvation Front"	"Algeria"	1992.0	2002.0	"Algerian government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3616.0	12500.0	3.906854829963364E-4	1.0	0.0		1.0	0.0	0.0
+317.0	"Anti-Abdelaziz Bouteflika Campaign"	"Algeria"	2010.0	2012.0	"Abdelaziz Bouteflika's Government"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	378.0	150000.0	0.003992988631402348	1.0	0.0	1.0	0.0	0.0	0.0
+176.0	"Popular Movement for the Liberation of Angola"	"Angola"	1961.0	1974.0	"Portuguese occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	5001.0	11400.0	0.0019068803420876426	1.0	0.0		1.0	0.0	1.0
+237.0	"UNITA"	"Angola"	1975.0	2002.0	"Angolan government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	9760.0	50000.0	0.0019923374700900336	1.0	0.0		1.0	1.0	1.0
+390.0	"Cabinda Conflict"	"Angola"	1991.0	2014.0	"Govt of Angola"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	8263.0	1100.0	3.8786749078400394E-5	1.0	0.0			0.0	1.0
+362.0	"Revolucion Libertadora"	"Argentina"	1955.0	1955.0	"Argentina"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3.0	4000.0	2.113120630132572E-4	1.0	1.0		0.0	0.0	0.0
+72.0	"ERP/Monteneros"	"Argentina"	1973.0	1977.0	"Argentina regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1766.0	3000.0	1.1111111111111112E-4	1.0	0.0		1.0	0.0	0.0
+33.0	"pro-democracy movement"	"Argentina"	1977.0	1983.0	"military junta"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	2415.0	9000000.0	0.30201342281879195	1.0	0.0	1.0	0.0	1.0	0.0
+32.0	"Argentina anti-coup"	"Argentina"	1987.0	1987.0	"attempted coup"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0	5.0	400000.0	0.012658227848101266	0.0	1.0	0.0	0.0	0.0	0.0
+318.0	"Armenian Opposition Protest / March 1st Movement"	"Armenia"	2007.0	2009.0	"Government / President"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	740.0	25000.0	0.008654759563855509	1.0	0.0	0.0	1.0	0.0	0.0
+254.0	"Pro-Independence Campaign"	"Aruba"	1977.0	1977.0	"Government of the Netherlands and the Netherlands Antilles Council"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	13.0		0.0	1.0	0.0	0.0	0.0	0.0	0.0
+35.0	"Armenians in Nagorno-Karabakh"	"Azerbaijan"	1991.0	1994.0	"Azeri occupation"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	944.0	10000.0	0.001316309069369488	1.0	0.0		0.0	1.0	1.0
+255.0	"Anti-King Hamad Campaign"	"Bahrain"	2011.0	2014.0	"Monarchy of King Hamad"	0.0	0.0	1.0	1.0	1.0	0.0	1.0	0.0	0.0	0.0	1050.0	100000.0	0.06381649439404005	1.0	0.0	1.0	0.0	0.0	0.0
+198.0	"Shanti Bahini"	"Bangladesh"	1976.0	1997.0	"Autonomy from Bangladesh regime"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	8006.0	2000.0	1.6147961836552915E-5	1.0	0.0		1.0	0.0	0.0
+37.0	"anti-Ershad campaign"	"Bangladesh"	1987.0	1990.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1262.0	1000.0	9.417203018755998E-6	0.0	0.0	0.0	1.0	0.0	0.0
+288.0	"Awami League Protests"	"Bangladesh"	2004.0	2007.0	"BNP-led government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1064.0	100000.0	6.796285837945106E-4	1.0	0.0	1.0	0.0	0.0	0.0
+38.0	"Belarus anti-communist"	"Belarus"	1988.0	1991.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1134.0	100000.0	0.009809691975671964	1.0	0.0	0.0	0.0	1.0	0.0
+39.0	"Denim revolution"	"Belarus"	2006.0	2006.0	"Belarus government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	7.0	40000.0	0.0041645306095082065	0.0	0.0	0.0	0.0	0.0	0.0
+41.0	"Benin anti-communist"	"Benin"	1989.0	1990.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	466.0	40000.0	0.008034555014205092	1.0	1.0	0.0	0.0	1.0	0.0
+432.0	"Popular Revolutionary Movement (Bolivia)"	"Bolivia"	1946.0	1946.0	"Villarroel Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	12.0		0.0	1.0	1.0	1.0	0.0	0.0	0.0
+44.0	"leftists"	"Bolivia"	1952.0	1952.0	"military junta"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3.0	23000.0	0.007976929333076685	1.0	1.0		0.0	0.0	0.0
+43.0	"Bolivian anti-juntas"	"Bolivia"	1977.0	1982.0	"Mil juntas"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1724.0	100000.0	0.017723507609765227	1.0	1.0	0.0	0.0	0.0	0.0
+289.0	"Anti-Siles Zuazo"	"Bolivia"	1985.0	1985.0	"President Hernan Silez-Zuazo"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	16.0	60000.0	0.010109630518278633	0.0	0.0	0.0	0.0	0.0	0.0
+257.0	"Anti-Sanchez de Lozada Campaign"	"Bolivia"	2003.0	2003.0	"President Sanchez de Lozada"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	19.0	1000.0	1.1350196698908792E-4	1.0	0.0	0.0	0.0	0.0	0.0
+196.0	"Serb militias"	"Bosnia-Herzegovina"	1992.0	1995.0	"Bosnian government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1286.0	70000.0	0.01821156215658197	1.0	0.0		1.0	1.0	0.0
+369.0	"Republic of Western Bosnia (secession)"	"Bosnia-Herzegovina"	1993.0	1995.0	"Bosnian government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	678.0	3000.0	7.733397812685763E-4	1.0	0.0		1.0	1.0	1.0
+68.0	"diretas ja"	"Brazil"	1984.0	1985.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	356.0	1500000.0	0.010948905109489052	1.0	1.0	0.0	0.0	0.0	0.0
+383.0	"Brunei Revolt"	"Brunei"	1962.0	1962.0	"Brunei government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	9.0	4000.0	0.044641362454382105	1.0	0.0		0.0	1.0	1.0
+47.0	"Bulgarian anti-communist"	"Bulgaria"	1989.0	1990.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	91.0	100000.0	0.011470140528720715	1.0	0.0	0.0	0.0	1.0	0.0
+290.0	"Dance with me Campaign"	"Bulgaria"	2013.0	2014.0	"Gov't of PM Oresharski"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	405.0	15000.0	0.0020764297810972354	1.0	0.0	1.0	0.0	0.0	0.0
+405.0	"Myanmar Regime Change Campaign"	"Burma/Myanmar"	1948.0	1962.0	"Burmese government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	5475.0	25000.0	0.0011	1.0	0.0		1.0	1.0	0.0
+408.0	"Karens"	"Burma/Myanmar"	1948.0	2013.0	"Burmese government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	16852.0	10000.0	2.3412501849880303E-4	1.0	0.0		0.0	1.0	0.0
+406.0	"Myanmar Regime Change Campaign"	"Burma/Myanmar"	1962.0	1988.0	"Burmese government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	9855.0	50000.0	0.0013	1.0	0.0		1.0	1.0	0.0
+349.0	"Naga Insurgency"	"Burma/Myanmar"	1988.0	2014.0	"Burmese and Indian rule"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	9848.0	2000.0	3.710771073366879E-5	1.0	0.0		1.0	0.0	0.0
+407.0	"Myanmar Regime Change Campaign"	"Burma/Myanmar"	1988.0	2014.0	"Burmese government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	9490.0	36000.0	7.0E-4	1.0	0.0		1.0	1.0	0.0
+273.0	"Saffron Revolution"	"Burma/Myanmar"	2007.0	2007.0	"Government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	41.0	130000.0	0.002627337339928462	1.0	0.0	0.0	1.0	0.0	0.0
+81.0	"Hutu rebellion"	"Burundi"	1972.0	1973.0	"Tutsi hegemony in government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	11484.0	2500.0	3.595511823265349E-4	1.0	0.0		0.0	0.0	0.0
+192.0	"Second Hutu Rebellion"	"Burundi"	1988.0	1988.0	"Tutsi influence in government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	8.0	2001.0	3.896028037383178E-4	1.0	0.0		0.0	1.0	0.0
+236.0	"Tutsi supremacists"	"Burundi"	1991.0	1992.0	"Buyoya regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	402.0		0.0	1.0	1.0		0.0	0.0	1.0
+225.0	"Third Hutu Rebellion"	"Burundi"	1991.0	2008.0	"power-sharing/Tutsi-dominated government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	6219.0	3000.0	5.299286945612888E-4	1.0	0.0		0.0	0.0	1.0
+371.0	"Cambodian Independence Movement"	"Cambodia"	1946.0	1954.0	"French rule"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	3122.0	34000.0	0.006918378999382637	1.0	0.0		0.0	1.0	1.0
+117.0	"Khmer Rouge"	"Cambodia"	1970.0	1975.0	"Cambodian government"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1932.0	60000.0	0.002586206896551724	1.0	1.0		1.0	1.0	1.0
+22.0	"Anti-Khmer Rouge"	"Cambodia"	1978.0	1979.0	"Khmer Rouge regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	69.0	150000.0	0.006172839506172839	1.0	1.0		0.0	1.0	1.0
+193.0	"Second Khmer Rouge"	"Cambodia"	1979.0	1997.0	"Cambodian government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	6748.0	30000.0	0.0026558355789898618	1.0	0.0		1.0	1.0	1.0
+51.0	"anti-colonialist movement"	"Cameroon"	1955.0	1960.0	"French occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1826.0	7000.0	0.0012480476968171218	1.0	0.0		0.0	0.0	0.0
+413.0	"Cameroon anti-Ahidjo government movement"	"Cameroon"	1960.0	1964.0	"Franco-Cameroonian administration"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1467.0	3000.0	5.127807175306395E-4	1.0	0.0		0.0	1.0	1.0
+259.0	"NCCOP pro-democracy movement"	"Cameroon"	1991.0	1991.0	"Biya Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	134.0	20000.0	0.0066424218269981235	1.0	0.0	1.0	0.0	1.0	0.0
+404.0	"Jama'atu Ahlis Sunna Lidda'awati wal-Jihad (Boko Haram Affliliate)"	"Cameroon"	2013.0	2014.0	"Gov't of Cameroon"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	17.0	2001.0	7.780478976550896E-5	1.0	0.0		1.0	1.0	0.0
+325.0	"CCCN and Union pro-democracy movement"	"Central African Republic"	1990.0	1993.0	"Kolingba Presidency"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1292.0	20000.0	0.0066424218269981235	1.0	0.0	1.0	0.0	1.0	0.0
+49.0	"multiple factions"	"Central African Republic"	1994.0	1997.0	"CAR regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1460.0	1000.0	2.843082595245399E-4	1.0	0.0		1.0	0.0	1.0
+360.0	"Seleka rebellion"	"Central African Republic"	2003.0	2013.0	"President Francois Bozize"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3662.0	20000.0	0.004444787186923081	1.0	1.0	0.0	0.0	1.0	0.0
+361.0	"anti-Balaka"	"Central African Republic"	2013.0	2014.0	"Central African Republic govt"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	292.0	50000.0	0.010407308761538583	1.0	0.0		0.0	0.0	0.0
+85.0	"Frolinat"	"Chad"	1966.0	1990.0	"Chadian government"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	8799.0	5000.0	8.393685329802166E-4	1.0	0.0		1.0	1.0	1.0
+54.0	"Chad rebels"	"Chad"	1994.0	1998.0	"Chadian regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1562.0	1000.0	1.2887830253872212E-4	1.0	0.0		1.0	0.0	1.0
+363.0	"MDJT"	"Chad"	1998.0	2003.0	"Govt of Chad"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	5541.0	1500.0	1.6036750244506986E-4	1.0	1.0		1.0	0.0	1.0
+170.0	"Pinochet-led rebels"	"Chile"	1973.0	1973.0	"Allende regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4.0	60000.0	0.00606266675491215	0.0	1.0		0.0	0.0	1.0
+26.0	"anti-Pinochet campaign"	"Chile"	1983.0	1989.0	"Augusto Pinochet"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	2409.0	700000.0	0.05426356589147287	1.0	1.0	1.0	0.0	1.0	0.0
+425.0	"Chinese communist movement"	"China"	1946.0	1949.0	"Kuomintang regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	8250.0	1000000.0	0.0018461424852770137	1.0	1.0		0.0	0.0	1.0
+216.0	"Taiwanese Revolt"	"China"	1947.0	1947.0	"Chinese occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	21.0	30000.0	5.511068982050448E-5	1.0	0.0		0.0	0.0	0.0
+92.0	"Hundred Flowers Movement"	"China"	1956.0	1957.0	"Communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	455.0	550000.0	8.688783570300158E-4	1.0	0.0	0.0	0.0	0.0	0.0
+228.0	"Tibetan resistance"	"China"	1956.0	1959.0	"Chinese occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1139.0	22500.0	3.4403669724770645E-5	1.0	0.0		0.0	0.0	0.0
+63.0	"Cultural Revolution Red Guards"	"China"	1967.0	1968.0	"anti-Maoists"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	601.0	1000000.0	0.001288659793814433	0.0	0.0		1.0	0.0	0.0
+66.0	"Democracy Movement"	"China"	1976.0	1979.0	"Communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1365.0	100000.0	1.0288065843621399E-4	1.0	0.0	0.0	0.0	0.0	0.0
+226.0	"Tiananmen Square"	"China"	1989.0	1989.0	"Communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	49.0	1000000.0	8.928571428571428E-4	1.0	0.0	0.0	0.0	0.0	0.0
+129.0	"La Violencia/Liberals of 1949"	"Colombia"	1948.0	1958.0	"Conservative govt"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3868.0	100000.0	0.006666666666666667	1.0	0.0		1.0	0.0	0.0
+182.0	"Revolutionary Armed Forces of Colombia, National Liberation Army, M-19"	"Colombia"	1964.0	2014.0	"Colombia govt and US influence"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	19046.0	12500.0	2.569192516562916E-4	1.0	1.0		1.0	0.0	0.0
+367.0	"Anjouan Separatist Movement"	"Comoros"	1997.0	2000.0	"Comoros govt"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	1267.0		0.0	1.0	1.0	1.0	0.0	1.0	0.0
+397.0	"Anti-Sassou-Nguessou Campaign (Cocoyes, Ninjas, Ntsiloulous)"	"Congo-Brazzaville (ROC)"	1997.0	2003.0	"Sassou-Nguessou Regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1961.0	3000.0	9.004779737084444E-4	1.0	1.0		0.0	1.0	0.0
+146.0	"National Union Party"	"Costa Rica"	1948.0	1948.0	"Calderon regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	36.0	700.0	9.383378016085791E-4	1.0	1.0		0.0	0.0	0.0
+391.0	"Serbian Republic of Krajina (secession campaign)"	"Croatia"	1991.0	1995.0	"Gov't of Croatia"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1589.0	40000.0	0.008664081016088765	1.0	0.0		0.0	0.0	1.0
+62.0	"Cuban Revolution"	"Cuba"	1958.0	1959.0	"Batista regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	223.0	50000.0	0.007245446454266887	1.0	1.0		0.0	1.0	1.0
+77.0	"Ethniki Organosis Kyprios Agoniston"	"Cyprus"	1954.0	1959.0	"British occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1976.0	1000.0	0.001763668430335097	0.0	0.0		0.0	0.0	0.0
+64.0	"Czech uprising"	"Czechoslovakia"	1968.0	1968.0	"Soviet occupation"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	228.0		0.0	1.0	0.0	0.0	0.0	0.0	0.0
+240.0	"Velvet Revolution"	"Czechoslovakia"	1989.0	1989.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	24.0	500000.0	0.04854368932038835	1.0	0.0	0.0	0.0	1.0	0.0
+409.0	"CNL"	"Democratic Republic of Congo"	1964.0	1965.0	"Mobutu regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	631.0		0.0	1.0	0.0		0.0	1.0	1.0
+112.0	"Kabila-ADFL"	"Democratic Republic of Congo"	1996.0	1997.0	"Mobutu regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	221.0	20000.0	4.56306944539952E-4	1.0	0.0		0.0	0.0	1.0
+410.0	"Second Congo War"	"Democratic Republic of Congo"	1998.0	2002.0	"Kabila Regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1480.0	85000.0	0.0017054574638844303	1.0	1.0		0.0	1.0	1.0
+326.0	"CNDP"	"Democratic Republic of Congo"	2006.0	2008.0	"Congo government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	704.0	8000.0	1.325082310800441E-4	1.0	0.0	0.0	0.0	0.0	1.0
+294.0	"M23"	"Democratic Republic of Congo"	2012.0	2013.0	"Congo government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	554.0	5500.0	7.71215078662606E-5	1.0	1.0		1.0	1.0	1.0
+2.0	"Afar insurgency"	"Djibouti"	1991.0	1994.0	"Djibouti regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1168.0	4500.0	0.0072304721016250885	1.0	0.0		0.0	0.0	1.0
+260.0	"Djibouti Arab Spring"	"Djibouti"	2011.0	2011.0	"Gov't of Djibouti (President Guelleh)"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	35.0	30000.0	0.034644552663761916	1.0	0.0	0.0	0.0	0.0	0.0
+70.0	"leftists"	"Dominican Republic"	1965.0	1965.0	"Loyalist regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	134.0	5000.0	0.0013137562630045447	1.0	1.0		1.0	1.0	0.0
+74.0	"East German uprising"	"East Germany"	1953.0	1953.0	"Communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	17.0	400000.0	0.022004620970403784	1.0	0.0	0.0	0.0	1.0	0.0
+75.0	"pro-dem movement"	"East Germany"	1989.0	1989.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	64.0	70000.0	0.004213314072469002	0.0	1.0	0.0	0.0	1.0	0.0
+230.0	"Freitilin"	"East Timor"	1975.0	1979.0	"Indonesian occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1414.0	30000.0	2.0818875780707842E-4	1.0	0.0		1.0	0.0	0.0
+230.0	"Timorese resistance"	"East Timor"	1989.0	1999.0	"Indonesian occupation"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	3640.0	6000.0	0.006950324869768288	1.0	1.0	1.0	0.0	0.0	1.0
+261.0	"Rebellion of the Forajidos"	"Ecuador"	2005.0	2005.0	"Ecuadorian President Colonel Lucio Gutierrez"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	7.0	100000.0	0.007280546314722146	1.0	1.0	0.0	0.0	0.0	0.0
+384.0	"Egyptian Insurgency-Jamaat Al Islamiyya"	"Egypt"	1992.0	1999.0	"Gov't of Egpyt"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2487.0	1001.0	1.491517045231126E-5	1.0	0.0		0.0	0.0	0.0
+118.0	"Kefaya"	"Egypt"	2000.0	2005.0	"Mubarak regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1894.0	5000.0	6.512269526060078E-5	1.0	0.0	0.0	0.0	0.0	0.0
+331.0	"Anti-Mubarak movement"	"Egypt"	2007.0	2011.0	"Government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1201.0	250000.0	0.0029104435223719564	1.0	1.0	0.0	1.0	1.0	0.0
+319.0	"Sinai Insurgency"	"Egypt"	2013.0	2014.0	"Sisi Government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	152.0	12000.0	1.2075381656776778E-4	1.0	0.0	0.0	0.0	0.0	0.0
+262.0	"Anti-Morsi Protests"	"Egypt"	2013.0	2013.0	"President Morsi"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	9.0	1.4E7	0.15588910107251366	1.0	1.0	1.0	0.0	1.0	0.0
+295.0	"Pro-Morsi Protests"	"Egypt"	2013.0	2014.0	"President Morsi"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	338.0	700000.0	0.007624228692181417	1.0	0.0	1.0	0.0	1.0	0.0
+191.0	"El Salvador anti-junta"	"El Salvador"	1977.0	1980.0	"Mil/civ junta"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1375.0	10500.0	0.0022995055625039556	1.0	0.0	1.0	0.0	1.0	0.0
+191.0	"Farabundo Marti National Liberation Front (FMLN)"	"El Salvador"	1979.0	1991.0	"El Salvador government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4523.0	6000.0	0.0011264100541859556	1.0	1.0		1.0	1.0	0.0
+199.0	"Shifta insurgency"	"Eritrea"	1945.0	1952.0	"UK occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	2815.0	1000.0	6.952937650922203E-4	1.0	0.0		0.0	0.0	0.0
+376.0	"Metsavennad (Forest Brothers, Estonian Anti-Occupation Campaign)"	"Estonia"	1945.0	1953.0	"Soviet occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	3073.0	10000.0	0.009082652134423252	1.0	0.0		0.0	0.0	0.0
+202.0	"Singing Revolution"	"Estonia"	1987.0	1991.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1459.0	300000.0	0.19214584638323873	1.0	0.0	0.0	0.0	1.0	0.0
+382.0	"Peoples’ Alliance for Freedom and Democracy"	"Ethiopia"	1973.0	2014.0	"Gov't of Ethiopia"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	16290.0	20000.0	1.8280478255334554E-4	1.0	0.0		1.0	0.0	0.0
+76.0	"Eritrean-led rebels"	"Ethiopia"	1974.0	1991.0	"Ethiopian government"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	6359.0	40000.0	8.028729524004928E-4	1.0	0.0		1.0	1.0	0.0
+207.0	"Somali rebels (Ogaden)"	"Ethiopia"	1976.0	1980.0	"Ethiopian occupation of Ogaden"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1616.0	20000.0	5.494505494505495E-4	1.0	0.0		1.0	1.0	1.0
+229.0	"Tigrean Liberation Front"	"Ethiopia"	1982.0	1991.0	"Ethiopian government"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	3412.0	30000.0	6.021547143003695E-4	1.0	0.0		1.0	1.0	0.0
+263.0	"Indo-Fijian Anti-Coup Campaign"	"Fiji"	1987.0	1987.0	"Coup Leader Sitiveni Rabuka"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	18.0	3000.0	0.004156707887353216	0.0	0.0	0.0	0.0	1.0	0.0
+426.0	"Anti-Coalition Government Campaign"	"Fiji"	1987.0	1987.0	"Timoci Bravadra"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	31.0	2000.0	0.0027711385915688107	1.0	1.0		0.0	0.0	0.0
+264.0	"Anti-Chaudhry Campaign"	"Fiji"	2000.0	2000.0	"Government of Fiji"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	31.0	2000.0	0.002465413332708762	1.0	1.0	1.0	0.0	0.0	0.0
+178.0	"French Nationalists/SAO"	"France"	1960.0	1962.0	"French withdrawal from Algeria"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	592.0	500000.0	0.010660980810234541	0.0	0.0		0.0	0.0	0.0
+392.0	"First Southern Ossetian Separatist Campaign"	"Georgia"	1991.0	1992.0	"Gov't of Georgia"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	536.0	3000.0	5.612066991617817E-4	1.0	0.0		1.0	0.0	1.0
+329.0	"Georgia-Abkhazia War"	"Georgia"	1992.0	1994.0	"Georgian occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	840.0	5750.0	0.001182738193187428	1.0	0.0		1.0	1.0	1.0
+183.0	"Rose Revolution"	"Georgia"	2003.0	2003.0	"Shevardnadze regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	19.0	200000.0	0.046500813764240874	0.0	1.0	0.0	0.0	0.0	1.0
+332.0	"Anti-Saakashvili Campaign"	"Georgia"	2007.0	2013.0	"Government of Georgia"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	2186.0	50000.0	0.011400207711784509	1.0	0.0	0.0	0.0	0.0	0.0
+434.0	"Third South Ossetian Campaign"	"Georgia"	2008.0	2008.0	"Georgian government"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	8.0	73000.0	0.016807535301580138	1.0	0.0		0.0	1.0	1.0
+58.0	"Convention People's Party movement"	"Ghana"	1949.0	1957.0	"British rule"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	2663.0	80000.0	0.01251703881909249	1.0	0.0	1.0	0.0	0.0	0.0
+401.0	"Greek Civil War"	"Greece"	1946.0	1949.0	"British and US occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1778.0	40000.0	0.0050916496945010185	1.0	0.0		0.0	1.0	1.0
+89.0	"Greek anti-military"	"Greece"	1973.0	1974.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	654.0	2500.0	2.787527931029869E-4	1.0	1.0	1.0	0.0	1.0	0.0
+133.0	"Marxist rebels (URNG)"	"Guatemala"	1966.0	1996.0	"government of Guatemala"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	11019.0	1500.0	1.408890701452867E-4	1.0	1.0		0.0	0.0	0.0
+348.0	"RDFG"	"Guinea"	2000.0	2001.0	"Gov't of Guinea"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	557.0	1800.0	2.0098805728963585E-4	1.0	0.0		0.0	0.0	0.0
+327.0	"pro-democracy movement"	"Guinea"	2007.0	2010.0	"Conte regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1407.0	100000.0	0.009264260244187372	1.0	1.0	0.0	0.0	0.0	0.0
+160.0	"PAIGC"	"Guinea-Bissau"	1963.0	1974.0	"Portuguese occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4132.0	10000.0	0.015623950265841513	1.0	0.0		0.0	0.0	1.0
+400.0	"Military Junta for the Consolidation of Democracy, Peace and Justice"	"Guinea-Bissau"	1998.0	1999.0	"Gov't of Guinea-Bisseau"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	337.0	10000.0	0.007765627159815054	1.0	0.0		0.0	0.0	0.0
+9.0	"anti-Burnham/Hoyte campaign"	"Guyana"	1990.0	1992.0	"Burnham/Hoyte autocratic regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	752.0	5000.0	0.006683294703889945	1.0	1.0	0.0	0.0	0.0	0.0
+15.0	"anti-Duvalier campaign"	"Haiti"	1985.0	1986.0	"Jean Claude Duvalier"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	72.0	30000.0	0.005368415571196733	1.0	1.0	0.0	1.0	0.0	0.0
+296.0	"Anti-National Governing Council (CNG)"	"Haiti"	1987.0	1987.0	"National Governing Council"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	32.0	10000.0	0.001751296616232243	1.0	0.0	0.0	0.0	0.0	0.0
+297.0	"Anti-Aristide Campaign 2004"	"Haiti"	2003.0	2004.0	"Haitian President Jean Bertrand Aristide"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	61.0	60000.0	0.007817680231080204	1.0	0.0	0.0	1.0	0.0	0.0
+338.0	"Pro-Aristide Campaign"	"Haiti"	2005.0	2010.0	"Haitian government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1904.0	5000.0	5.000191507334731E-4	0.0	0.0	0.0	0.0	0.0	0.0
+266.0	"Frente Nacionalæde Resistencia Popular (FNRP)"	"Honduras"	2009.0	2009.0	"Coup government, led by Roberto Micheletti"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	91.0	10000.0	0.001244551818844033	1.0	0.0	0.0	0.0	0.0	0.0
+93.0	"Hungarian anti-communist"	"Hungary"	1956.0	1956.0	"communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	69.0	200000.0	0.02026418622219741	1.0	1.0	1.0	0.0	1.0	0.0
+94.0	"Hungarian anti-Soviet"	"Hungary"	1956.0	1956.0	"Soviet occupation"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	97.0	1001.0	1.0142225204209804E-4	1.0	0.0	1.0	0.0	0.0	0.0
+95.0	"pro-dem movement"	"Hungary"	1989.0	1989.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	23.0	100000.0	0.009615384615384616	1.0	0.0	0.0	0.0	1.0	0.0
+298.0	"Cutlery Revolution (Kitchenware/Kitchen Implement Revolution)"	"Iceland"	2008.0	2009.0	"PM Geir Haarde government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	108.0	6000.0	0.018838363699729042	1.0	0.0	1.0	0.0	0.0	0.0
+368.0	"Punnapra-Vayalar Uprising"	"India"	1946.0	1946.0	"The Princely State of Travencore, British India"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	215.0	50000.0	1.4671533703447222E-4	1.0	0.0		1.0	0.0	0.0
+96.0	"Hyderabad Accession Movement"	"India"	1948.0	1948.0	"Indian annexation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	4.0	24000.0	6.868328420570643E-5	1.0	0.0		0.0	0.0	0.0
+355.0	"Telangana People's Front"	"India"	1948.0	1952.0	"Indian government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1506.0		0.0	1.0	0.0		1.0	0.0	1.0
+144.0	"Naga Rebellion"	"India"	1951.0	2014.0	"Indian occupation"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	22875.0	15000.0	2.830188679245283E-5	1.0	0.0		1.0	0.0	0.0
+135.0	"Mizo Revolt"	"India"	1966.0	1986.0	"Indian occupation"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	7610.0	2500.0	3.213367609254499E-6	1.0	0.0		1.0	0.0	1.0
+148.0	"Naxalite rebellion"	"India"	1970.0	1971.0	"Indian regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	652.0	2000.0	3.5211267605633804E-6	1.0	0.0		1.0	0.0	0.0
+267.0	"Anti-Indira Campaign"	"India"	1975.0	1977.0	"Prime Minister Indira Gandhi"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	646.0	100000.0	1.6103059581320451E-4	1.0	0.0	0.0	0.0	0.0	0.0
+379.0	"Manipur"	"India"	1979.0	2014.0	"Gov't of India"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	12668.0	4200.0	3.0576474256281644E-6	1.0	0.0		1.0	0.0	0.0
+347.0	"Naxalite insurgency"	"India"	1980.0	2014.0	"Indian government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	12306.0	49500.0	3.603655894490337E-5	1.0	0.0		1.0	0.0	1.0
+201.0	"Sikh insurgency"	"India"	1984.0	1994.0	"separatism"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	3501.0	3000.0	3.1840230005161013E-6	1.0	0.0		1.0	0.0	0.0
+351.0	"Assam independence"	"India"	1985.0	2014.0	"Gov't of India"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	10364.0	4000.0	2.9120451672649187E-6	1.0	0.0		1.0	0.0	0.0
+352.0	"Bodoland Independence Campaign (secesesion)"	"India"	1986.0	2014.0	"Gov't of India"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	9951.0	3500.0	2.548039521356804E-6	1.0	0.0		1.0	0.0	0.0
+374.0	"Tripura"	"India"	1989.0	2014.0	"Indian government"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	9060.0	2500.0	1.8200282295405743E-6	1.0	0.0		1.0	0.0	0.0
+115.0	"Kashmiri Muslim separatists"	"India"	1990.0	2005.0	"Indian occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	5498.0	5000.0	4.370176025988017E-6	1.0	0.0		1.0	0.0	1.0
+101.0	"Indonesian Revolt"	"Indonesia"	1945.0	1949.0	"Dutch occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1501.0	160000.0	0.0021587198791116866	1.0	0.0		1.0	0.0	0.0
+137.0	"Moluccans"	"Indonesia"	1950.0	1950.0	"Indonesian government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	156.0	5000.0	6.0240963855421684E-5	0.0	0.0		0.0	0.0	0.0
+65.0	"Darul Islam"	"Indonesia"	1953.0	1953.0	"Indonesian government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	64.0	13000.0	1.4959723820483315E-4	0.0	0.0		1.0	0.0	0.0
+102.0	"leftists"	"Indonesia"	1956.0	1960.0	"Sukarno regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1477.0	10000.0	1.0E-4	0.0	1.0		0.0	0.0	0.0
+87.0	"GAM"	"Indonesia"	1975.0	2005.0	"Indonesian occupation"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	10621.0	3500.0	1.5438039143192357E-5	1.0	0.0		1.0	0.0	1.0
+29.0	"anti-Suharto campaign"	"Indonesia"	1997.0	1998.0	"Suharto rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	205.0	10000.0	4.861081377496686E-5	1.0	0.0	0.0	1.0	0.0	0.0
+268.0	"Student Protests (Anti-Habibie)"	"Indonesia"	1999.0	1999.0	"Pres. BJ Habibie"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	151.0	10000.0	4.793575320557407E-5	1.0	0.0	1.0	1.0	0.0	0.0
+378.0	"KDPI (First Separatist Movement)"	"Iran"	1945.0	1946.0	"Iranian rule"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	502.0	1200.0	7.532956685499058E-5	1.0	0.0		0.0	0.0	1.0
+104.0	"Iranian Revolution"	"Iran"	1977.0	1979.0	"Shah Reza Pahlavi"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	452.0	2000000.0	0.05263157894736842	1.0	1.0	1.0	0.0	1.0	0.0
+111.0	"KDPI"	"Iran"	1979.0	1996.0	"Iranian regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	6348.0	10000.0	1.6238224100775458E-4	1.0	0.0		1.0	1.0	1.0
+103.0	"Mujahideen"	"Iran"	1981.0	2001.0	"Khomenei regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	7562.0	1000.0	1.4903926162134387E-5	1.0	0.0		0.0	0.0	0.0
+385.0	"PJAK"	"Iran"	2005.0	2014.0	"Government of Iran"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	3080.0	3000.0	3.630601146224349E-5	1.0	0.0		1.0	0.0	1.0
+333.0	"Green Revolution and Day of Rage"	"Iran"	2009.0	2013.0	"Government"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1463.0	250000.0	0.003228498227631957	1.0	1.0	0.0	0.0	0.0	1.0
+197.0	"Shammar Tribe and pro-Western officers"	"Iraq"	1959.0	1959.0	"Qassim regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4.0	3000.0	4.528498064746352E-4	1.0	1.0		0.0	1.0	0.0
+122.0	"Kurdish rebellion"	"Iraq"	1961.0	1970.0	"Iraqi government"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	3103.0	30000.0	0.0031868545225343012	1.0	1.0		0.0	1.0	1.0
+121.0	"Kurdish secession against Saddam"	"Iraq"	1985.0	1991.0	"secession"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	2285.0	5000.0	2.7866462795624855E-4	1.0	0.0		1.0	0.0	1.0
+388.0	"SCIRI"	"Iraq"	1989.0	1996.0	"Government of Iraq"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2921.0	8000.0	3.835935504114808E-4	1.0	0.0		1.0	0.0	1.0
+200.0	"Shiite rebellion"	"Iraq"	1991.0	1991.0	"Hussein regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	30.0	4000.0	2.2293170236499884E-4	1.0	0.0		0.0	0.0	1.0
+110.0	"Kurdish civil conflict"	"Iraq"	1996.0	1996.0	"Iraqi government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	53.0	40000.0	0.001918843198513971	1.0	0.0		1.0	0.0	1.0
+105.0	"Iraqi insurgency (Sunni/AQI/ISIL)"	"Iraq"	2004.0	2014.0	"Iraqi government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	3473.0	100000.0	0.0025419580036509124	1.0	0.0		1.0	1.0	0.0
+71.0	"Druze resistance"	"Israel"	1981.0	1982.0	"Israeli occupation of Golan"	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	303.0	20000.0	0.005183467537627439	1.0	0.0	0.0	1.0	1.0	0.0
+292.0	"Ivorian pro-democracy movement"	"Ivory Coast"	1989.0	1990.0	"Houphouet-Boigny regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	575.0	10000.0	8.219690630571923E-4	1.0	1.0	0.0	0.0	0.0	1.0
+162.0	"PMIC"	"Ivory Coast"	2002.0	2005.0	"incumbent regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	945.0	40000.0	0.0021814648241796617	1.0	0.0		1.0	0.0	0.0
+293.0	"Pro-Ouattara Campaign"	"Ivory Coast"	2010.0	2011.0	"Gbagbo Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	171.0	45000.0	0.002184023807606722	1.0	0.0	1.0	0.0	0.0	0.0
+165.0	"Palestinian activists"	"Jordan"	1970.0	1970.0	"Jordanian rule"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	11.0	20000.0	0.013307082894476829	1.0	0.0		1.0	1.0	1.0
+320.0	"Protest for Constitutional Reform"	"Jordan"	2011.0	2013.0	"Government (Prime Minister Samir Rifai)"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	740.0	8000.0	9.508568646635916E-4	0.0	0.0	0.0	0.0	0.0	0.0
+134.0	"Mau Mau Rebellion"	"Kenya"	1952.0	1956.0	"British occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1456.0	30000.0	0.00414350504892996	1.0	1.0		0.0	0.0	0.0
+142.0	"NFDLM secessionists"	"Kenya"	1964.0	1968.0	"secession"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1826.0	10000.0	9.523809523809524E-4	1.0	0.0		0.0	0.0	1.0
+7.0	"anti-Arap Moi"	"Kenya"	1990.0	1991.0	"Daniel Arap Moi"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	681.0	6000.0	2.4814308327210404E-4	1.0	0.0	0.0	0.0	0.0	0.0
+123.0	"Kyrgyzstan Democratic Movement"	"Kyrgyzstan"	1990.0	1991.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	353.0	20000.0	0.0044806882337126985	1.0	0.0	0.0	0.0	1.0	0.0
+231.0	"Tulip Revolution"	"Kyrgyzstan"	2005.0	2005.0	"Akayev regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	25.0	20000.0	0.003874016968194321	1.0	1.0	1.0	0.0	0.0	0.0
+269.0	"Second Revolution"	"Kyrgyzstan"	2010.0	2010.0	"Kyrgyz president Kurmanbek Bakiyev"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	14.0	2000.0	3.671139338093577E-4	1.0	0.0	1.0	0.0	0.0	0.0
+300.0	"Anti-Interim Government"	"Kyrgyzstan"	2010.0	2010.0	"Interim government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	235.0	2000.0	3.671139338093577E-4	1.0	0.0	0.0	0.0	1.0	0.0
+364.0	"Laotian Independence"	"Laos"	1946.0	1949.0	"French occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1175.0	3001.0	0.00170997150997151	1.0	0.0		0.0	0.0	1.0
+366.0	"First Pathet Lao"	"Laos"	1950.0	1957.0	"Royal Loatian Government (RLG)"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3044.0	15001.0	0.007579861146200722	1.0	0.0		0.0	1.0	1.0
+167.0	"Second Pathet Lao"	"Laos"	1959.0	1975.0	"Laotian government"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4492.0	48000.0	0.015858080749347175	1.0	0.0		1.0	1.0	1.0
+380.0	"Meza Brali (Forest Brothers, Latvian anti-occupation campaign)"	"Latvia"	1945.0	1950.0	"Soviet occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	2190.0	15000.0	0.007696258438306023	1.0	0.0		0.0	0.0	0.0
+127.0	"pro-dem movement"	"Latvia"	1989.0	1991.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	738.0	250000.0	0.09431894365801309	0.0	0.0	0.0	0.0	1.0	0.0
+28.0	"leftists (anti-Shamun)"	"Lebanon"	1958.0	1958.0	"Shamun regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	129.0	14500.0	0.008567932179794216	1.0	0.0		0.0	1.0	0.0
+128.0	"Lebanon leftists"	"Lebanon"	1975.0	1990.0	"Lebanese government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	5706.0	25000.0	0.009248927864281973	1.0	0.0		1.0	1.0	0.0
+395.0	"Hundred Day War"	"Lebanon"	1978.0	1978.0	"Syrian occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	255.0		0.0	1.0	0.0		1.0	1.0	0.0
+90.0	"Hizballah"	"Lebanon"	1982.0	2000.0	"Israeli occupation of Southern Lebanon"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	6564.0	3000.0	9.272521254164135E-4	1.0	0.0		1.0	1.0	1.0
+53.0	"Cedar Revolution"	"Lebanon"	2005.0	2005.0	"Syrian forces"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	70.0	1000000.0	0.25082446000002007	1.0	0.0	0.0	1.0	1.0	0.0
+394.0	"2006 Lebanon War"	"Lebanon"	2006.0	2006.0	"Israeli occupation in southern Lebanon"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	58.0	2000.0	4.929701228062522E-4	1.0	0.0		0.0	1.0	1.0
+321.0	"Lebanon Political Crisis"	"Lebanon"	2006.0	2008.0	"Government of Prime Minister Fouad Siniora"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	545.0	800000.0	0.19459762926573207	1.0	1.0	1.0	0.0	1.0	1.0
+14.0	"anti-Doe rebels"	"Liberia"	1989.0	1990.0	"Doe regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	339.0	3000.0	0.0014304569070088574	1.0	0.0		1.0	0.0	0.0
+143.0	"NPFL & ULIMO"	"Liberia"	1992.0	1995.0	"Johnson regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1038.0	10000.0	0.0048228053101015585	1.0	0.0		1.0	0.0	0.0
+147.0	"national patriotic forces"	"Liberia"	1996.0	1996.0	"Liberian govt"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	137.0	10000.0	0.004563753121036665	1.0	0.0		1.0	0.0	0.0
+126.0	"LURD"	"Liberia"	1999.0	2003.0	"Taylor regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1600.0	6500.0	0.002085851731882693	1.0	0.0		1.0	1.0	1.0
+270.0	"Libyan Civil War"	"Libya"	2011.0	2011.0	"Qaddafi regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	250.0	200000.0	0.03229191373344414	1.0	1.0	0.0	0.0	0.0	1.0
+381.0	"Mikso Broliai (Forest Brothers, Lithuanian Anti-Occupation Campaign)"	"Lithuania"	1945.0	1956.0	"Soviet occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4098.0	30000.0	0.011634572053292545	1.0	0.0		0.0	0.0	1.0
+190.0	"pro-democracy movement/Sajudis"	"Lithuania"	1988.0	1991.0	"Lithuanian regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	982.0	250000.0	0.06749215876099515	1.0	1.0	0.0	0.0	0.0	0.0
+435.0	"NLA Insurgency"	"Macedonia"	2001.0	2001.0	"Government of Macedonia"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	203.0	7000.0	0.0034626295703618693	1.0	0.0		0.0	1.0	1.0
+83.0	"Franco-Madagascan"	"Madagascar"	1947.0	1948.0	"French occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	613.0	5500.0	0.0013365735115431349	1.0	0.0		0.0	0.0	0.0
+271.0	"Anti-Tsiranana"	"Madagascar"	1972.0	1972.0	"Tsiranana regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	6.0	100000.0	0.014119447703683622	0.0	0.0	0.0	0.0	0.0	0.0
+1.0	"Active Voices"	"Madagascar"	1991.0	1993.0	"Didier Radsiraka"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	611.0	400000.0	0.031557040138977206	1.0	0.0	0.0	0.0	0.0	0.0
+130.0	"pro-democracy movement"	"Madagascar"	2002.0	2002.0	"Radsiraka regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	158.0	500000.0	0.02982383003948019	0.0	0.0	0.0	0.0	0.0	0.0
+272.0	"anti-Ravalomanana movement"	"Madagascar"	2009.0	2009.0	"Ravalomanana government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	53.0	30000.0	0.001458496938201686	1.0	1.0	0.0	0.0	1.0	0.0
+157.0	"Nyasaland African Congress"	"Malawi"	1958.0	1959.0	"British rule"	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	245.0	67000.0	0.019880987070236857	1.0	1.0	0.0	0.0	0.0	0.0
+8.0	"anti-Banda campaign"	"Malawi"	1992.0	1994.0	"Banda regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	793.0	10000.0	0.0010207231292594775	0.0	0.0	0.0	0.0	0.0	0.0
+302.0	"Anti-Mutharika"	"Malawi"	2011.0	2012.0	"President Mutharika Government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	261.0	2000.0	1.24244399916632E-4	1.0	0.0	0.0	0.0	0.0	0.0
+131.0	"Malayan Emergency"	"Malaysia"	1948.0	1960.0	"British occupation"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4407.0	4000.0	4.745806871999538E-4	1.0	0.0		0.0	0.0	0.0
+17.0	"Anti-Gayoom Campaign"	"Maldives"	2003.0	2008.0	"Gayoom Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1866.0	10000.0	0.027624309392265192	1.0	0.0	0.0	0.0	0.0	0.0
+303.0	"Nasheed Supporters"	"Maldives"	2012.0	2013.0	"President Mohammed Waheed Hassan Government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	647.0	3000.0	0.007633587786259542	1.0	0.0	1.0	0.0	0.0	0.0
+220.0	"Tauregs"	"Mali"	1989.0	1995.0	"Mali regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2037.0	7000.0	7.288288241388106E-4	1.0	0.0		1.0	0.0	0.0
+132.0	"Mali anti-military"	"Mali"	1990.0	1991.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	152.0	100000.0	0.011557334665971069	1.0	1.0	0.0	1.0	0.0	0.0
+328.0	"Northern Mali conflict"	"Mali"	2012.0	2014.0	"Mailian government"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	1251.0	3000.0	1.7174354909761647E-4	1.0	1.0	0.0	0.0	0.0	1.0
+339.0	"Anti-Aziz Protests"	"Mauritania"	2011.0	2014.0	"Mohamed Ould Abdel Aziz Regime, Government run census"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1250.0	2000.0	4.921356719620465E-4	1.0	0.0	0.0	0.0	0.0	0.0
+25.0	"anti-PRI campaign"	"Mexico"	1987.0	2000.0	"corrupt govt"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	4645.0	100000.0	9.830939979525888E-4	0.0	1.0	1.0	0.0	0.0	0.0
+10.0	"anti-Calderon campaign"	"Mexico"	2006.0	2006.0	"Calderon regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	55.0	1000000.0	0.009083280951565966	0.0	0.0	0.0	1.0	0.0	0.0
+69.0	"Dniestr"	"Moldova"	1992.0	1992.0	"Moldovan regime"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	148.0	15000.0	0.0040474905558553695	1.0	0.0		0.0	0.0	0.0
+138.0	"Mongolian anti-communist"	"Mongolia"	1989.0	1990.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	151.0	7000.0	0.0032049154245711708	1.0	0.0	0.0	0.0	1.0	0.0
+140.0	"Moroccan Independence War"	"Morocco"	1953.0	1956.0	"French/Spanish occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	935.0	12000.0	0.001081081081081081	1.0	0.0		0.0	1.0	0.0
+98.0	"Ifni war"	"Morocco"	1957.0	1958.0	"Spanish occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	221.0	12000.0	0.0010256410256410256	1.0	0.0		0.0	0.0	0.0
+340.0	"Western Sahara Independence Movement"	"Morocco"	1999.0	2003.0	"Moroccan Government"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	2280.0	120000.0	0.003931710126807481	1.0	0.0	0.0	0.0	0.0	1.0
+86.0	"Front for the Liberation of Mozambique"	"Mozambique"	1962.0	1975.0	"Portuguese occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4748.0	10000.0	9.615384615384616E-4	1.0	0.0		0.0	0.0	1.0
+181.0	"Renamo"	"Mozambique"	1979.0	1992.0	"Mozambique government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4732.0	20000.0	0.0014213397534302435	1.0	1.0		0.0	1.0	1.0
+188.0	"SWAPO"	"Namibia"	1976.0	1988.0	"South African occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4688.0	7500.0	0.005971870103066515	1.0	0.0		1.0	1.0	1.0
+224.0	"The Stir"	"Nepal"	1990.0	1990.0	"Monarchy/Panchayat regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	49.0	200000.0	0.010667004597372312	1.0	0.0	1.0	0.0	0.0	0.0
+50.0	"CPN-M/UPF"	"Nepal"	2001.0	2006.0	"Nepalese government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1615.0	5000.0	1.9274791371585672E-4	1.0	0.0		1.0	0.0	0.0
+149.0	"Nepalese anti-government"	"Nepal"	2002.0	2006.0	"Nepalese govt; martial law"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1245.0	300000.0	0.011564874822951404	1.0	0.0	1.0	0.0	0.0	0.0
+274.0	"Maoist Anti-Govt Protests"	"Nepal"	2010.0	2010.0	"Madhav Kumar Nepal Govt"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	60.0	125000.0	0.004625665776700906	1.0	0.0	1.0	0.0	0.0	0.0
+276.0	"Anti-Somoza Strike"	"Nicaragua"	1978.0	1978.0	"Somoza regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	244.0		0.0	1.0	0.0	1.0	0.0	0.0	0.0
+80.0	"FSLN"	"Nicaragua"	1978.0	1979.0	"Nicaraguan regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	312.0	3000.0	0.0011159971117994747	1.0	0.0		1.0	0.0	0.0
+57.0	"Contras"	"Nicaragua"	1981.0	1990.0	"Sandinista regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3061.0	13500.0	0.0032572779049188515	1.0	1.0		0.0	0.0	1.0
+151.0	"Niger anti-military"	"Niger"	1990.0	1992.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1023.0	10000.0	0.0011696694420583187	1.0	0.0	0.0	1.0	0.0	0.0
+153.0	"Independence Movement"	"Nigeria"	1945.0	1950.0	"British occupation"	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	2019.0	100000.0	0.0031446540880503146	1.0	0.0	0.0	0.0	0.0	0.0
+42.0	"Biafrans"	"Nigeria"	1967.0	1970.0	"Nigerian govt"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	921.0	50500.0	9.882583170254403E-4	1.0	0.0		0.0	1.0	1.0
+154.0	"Muslim fundamentalists"	"Nigeria"	1980.0	1984.0	"Nigerian govt"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1474.0	1000.0	1.2903225806451613E-5	1.0	0.0		1.0	0.0	0.0
+158.0	"Ogoni movement"	"Nigeria"	1990.0	1995.0	"Nigerian govt and corporate exploitation"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	1836.0	300000.0	0.0027774829273910875	1.0	0.0	0.0	0.0	0.0	0.0
+152.0	"Nigeria anti-military"	"Nigeria"	1993.0	1999.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	2154.0	1000000.0	0.008380327907649256	1.0	0.0	0.0	0.0	0.0	0.0
+334.0	"Boko Haram"	"Nigeria"	2011.0	2014.0	"Nigerian govt"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	1036.0	9000.0	4.594761511379818E-5	1.0	0.0		1.0	1.0	0.0
+97.0	"IRA/Irish nationalists"	"Northern Ireland"	1968.0	1998.0	"British control"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	10778.0	1000.0	1.70977753896365E-5	1.0	1.0		1.0	0.0	1.0
+175.0	"Popular Front for the Liberation of Oman and the Arab Gulf (PFLOAG)"	"Oman"	1962.0	1976.0	"Oman government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	4779.0	2000.0	0.002091059362038699	1.0	1.0		0.0	0.0	0.0
+373.0	"Second Balochistan Separatist Movement"	"Pakistan"	1962.0	1969.0	"Government of Pakistan"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	2861.0	19800.0	3.501578707982183E-4	1.0	0.0		0.0	0.0	0.0
+21.0	"anti-Khan campaign"	"Pakistan"	1968.0	1969.0	"Khan regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	179.0	3000.0	4.6875E-5	1.0	0.0	1.0	0.0	0.0	0.0
+40.0	"Bangla Independence Campaign"	"Pakistan"	1971.0	1971.0	"Pakistani rule"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	252.0	90000.0	0.0013333333333333333	1.0	1.0		1.0	0.0	1.0
+36.0	"Third Balochistan Separatist Movement"	"Pakistan"	1973.0	1977.0	"Government of Pakistan"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1535.0	55000.0	7.033248081841433E-4	1.0	0.0		0.0	1.0	0.0
+277.0	"Anti-Bhutto"	"Pakistan"	1977.0	1977.0	"Prime Minister Zulfiqar Ali Bhutto"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	115.0	50000.0	6.393861892583121E-4	1.0	1.0	1.0	0.0	0.0	0.0
+163.0	"pro-dem movement"	"Pakistan"	1983.0	1983.0	"Zia al-Huq"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	235.0	50000.0	5.336179295624333E-4	1.0	0.0	0.0	1.0	1.0	0.0
+278.0	"Anti-Zia al-Haq"	"Pakistan"	1986.0	1986.0	"President Zia al-Haq"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	235.0	100000.0	9.80392156862745E-4	1.0	0.0	1.0	0.0	1.0	0.0
+136.0	"Mohajir"	"Pakistan"	1994.0	1999.0	"Pakistani government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2160.0	3000.0	2.2155659400279978E-5	1.0	0.0		1.0	0.0	0.0
+375.0	"Fourth Balochistan Separatist Movement"	"Pakistan"	2004.0	2014.0	"Government of Pakistan"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	3607.0	5000.0	2.4442139452925476E-5	1.0	0.0		1.0	1.0	0.0
+342.0	"Islamist insurgency"	"Pakistan"	2007.0	2014.0	"Pakistani government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	2361.0	50000.0	2.4898685009813417E-4	1.0	0.0		1.0	0.0	1.0
+304.0	"Anti-Musharraf Campaign (Lawyer's Movement)"	"Pakistan"	2007.0	2008.0	"Musharraf Government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	525.0	40000.0	2.444321368789657E-4	1.0	0.0	1.0	1.0	0.0	0.0
+164.0	"First Intifada"	"Palestine"	1987.0	1990.0	"Israeli occupation"	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	905.0	150000.0	0.032188841201716736	1.0	1.0	1.0	0.0	1.0	0.0
+109.0	"Jewish resistance"	"Palestinian Territories"	1945.0	1948.0	"British occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	950.0	1500.0	0.0014071294559099437	0.0	0.0		1.0	0.0	0.0
+164.0	"Palestinian Liberation"	"Palestinian Territories"	1973.0	2014.0	"Israeli occupation"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	14960.0	4500.0	3.331946996571871E-4	1.0	1.0		1.0	1.0	1.0
+24.0	"anti-Noriega campaign"	"Panama"	1987.0	1989.0	"Noriega regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	925.0	10000.0	0.004269353513144272	1.0	0.0	0.0	0.0	1.0	1.0
+45.0	"Bougainville Revolt"	"Papua New Guinea"	1988.0	1998.0	"Papuan regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3653.0	2000.0	3.779876617267459E-4	1.0	0.0		0.0	0.0	0.0
+166.0	"leftist rebellion"	"Paraguay"	1947.0	1947.0	"Morinigo regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	166.0	3300.0	0.0024719101123595504	1.0	1.0		1.0	0.0	0.0
+195.0	"Senderista Insurgency (Sendero Luminoso) The Shinning Path"	"Peru"	1980.0	2012.0	"Peruvian government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	5706.0	5000.0	2.0799741750406427E-4	1.0	1.0		1.0	0.0	0.0
+16.0	"anti-Fujimori campaign"	"Peru"	2000.0	2000.0	"Fujimori govt"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	114.0	50000.0	0.0019293935348878148	1.0	0.0	0.0	1.0	0.0	0.0
+91.0	"Hukbalahap Rebellion"	"Philippines"	1946.0	1954.0	"Filipino government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2872.0	15000.0	6.302521008403362E-4	1.0	1.0		0.0	1.0	0.0
+139.0	"Moro National Liberation Front"	"Philippines"	1968.0	1987.0	"Filipino government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	6940.0	7000.0	1.1666666666666667E-4	1.0	1.0		1.0	0.0	1.0
+150.0	"New People's Army"	"Philippines"	1972.0	1992.0	"Filipino government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	7396.0	20000.0	3.073353920092122E-4	0.0	0.0		1.0	0.0	1.0
+169.0	"People Power"	"Philippines"	1983.0	1986.0	"Ferdinand Marcos"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	973.0	2000000.0	0.034129692832764506	1.0	1.0	0.0	1.0	1.0	0.0
+194.0	"Second People Power Movement"	"Philippines"	2001.0	2001.0	"Estrada regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	4.0	500000.0	0.006276257113902079	0.0	1.0	0.0	1.0	0.0	0.0
+279.0	"People Power III"	"Philippines"	2001.0	2001.0	"Government of the Philippines"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	15.0	200000.0	0.0025105028455608314	1.0	0.0	1.0	1.0	1.0	0.0
+177.0	"Poznan protests"	"Poland"	1956.0	1956.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	37.0	100000.0	0.0035971223021582736	1.0	0.0	1.0	0.0	1.0	0.0
+171.0	"Poland Anti-Communist I"	"Poland"	1968.0	1968.0	"Communist regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	54.0	20000.0	6.211180124223603E-4	1.0	0.0	0.0	0.0	1.0	0.0
+172.0	"Poland Anti-Communist II"	"Poland"	1970.0	1970.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	7.0	10000.0	3.058103975535168E-4	1.0	0.0	0.0	0.0	1.0	0.0
+173.0	"Warsaw Worker's Uprising"	"Poland"	1976.0	1976.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	6.0	70000.0	0.0020408163265306124	1.0	0.0	0.0	0.0	1.0	0.0
+206.0	"Solidarity"	"Poland"	1980.0	1989.0	"Communist regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	3274.0	50000.0	0.0013157894736842105	1.0	0.0	0.0	0.0	1.0	0.0
+52.0	"Carnation Revolution"	"Portugal"	1973.0	1974.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	381.0	10000.0	0.0011150865184478798	1.0	1.0	0.0	0.0	0.0	0.0
+396.0	"Anti-Lissouba Campaign (Cocoyes, Ninjas, Cobras)"	"Republic of the Congo"	1993.0	1997.0	"Government of Congo"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1680.0	1001.0	3.4833893482756005E-4	1.0	0.0		0.0	0.0	0.0
+412.0	"Democratic Republic of Yemen Secessionist Movement"	"Republic of Yemen"	1994.0	1994.0	"Republic of Yemen"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	154.0	27500.0	0.001879302192544282	1.0	0.0		0.0	0.0	1.0
+253.0	"anti-Ceaucescu movement"	"Romania"	1987.0	1989.0	"Ceasescu regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	771.0	100000.0	0.004366812227074236	1.0	1.0	0.0	1.0	1.0	0.0
+11.0	"anti-Ceaucescu rebels"	"Romania"	1989.0	1989.0	"Ceacescu regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	8.0	450000.0	0.019650655021834062	1.0	1.0		0.0	0.0	0.0
+185.0	"pro-dem movement"	"Russia"	1990.0	1991.0	"Anti-coup"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0	564.0	700000.0	0.004709871891484552	1.0	1.0	0.0	0.0	1.0	0.0
+399.0	"Anti-Yeltsin"	"Russia"	1993.0	1993.0	"Gov't of Russia (Yeltsin)"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	12.0	10000.0	6.736918761470572E-5	1.0	0.0		0.0	0.0	0.0
+55.0	"Chechen separatists"	"Russia"	1994.0	2009.0	"Russian occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	5240.0	15000.0	1.0505280016768108E-4	1.0	1.0		1.0	0.0	0.0
+343.0	"Caucasus Emirate"	"Russia"	2007.0	2014.0	"Russian goverment"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	2275.0	1000.0	6.946146781014227E-6	1.0	0.0	0.0	1.0	0.0	0.0
+335.0	"Snow Revolution"	"Russia"	2010.0	2014.0	"Putin"	0.0	0.0	1.0	1.0	1.0	0.0	1.0	0.0	0.0	0.0	1442.0	160000.0	0.0011113834849622764	1.0	0.0	0.0	0.0	0.0	0.0
+186.0	"Rwandan independence"	"Rwanda"	1956.0	1962.0	"Belgain occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1978.0	15000.0	0.004916030914624274	1.0	0.0		0.0	0.0	0.0
+241.0	"Watusi"	"Rwanda"	1963.0	1964.0	"Hutu regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	83.0	2000.0	6.281420844832259E-4	1.0	0.0		0.0	0.0	0.0
+235.0	"Tutsi rebels"	"Rwanda"	1990.0	1993.0	"Hutu regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1038.0	15000.0	0.0023809867729835464	1.0	0.0		1.0	0.0	1.0
+168.0	"Patriotic Front"	"Rwanda"	1994.0	1994.0	"Hutu regime and genocide"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	103.0	15000.0	0.0024978788845139003	1.0	0.0		1.0	0.0	0.0
+403.0	"Hutu Nationalist Insurgency"	"Rwanda"	1996.0	2001.0	"Gov't of Rwanda"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1889.0	20000.0	0.0024012160718674363	1.0	0.0		0.0	0.0	1.0
+305.0	"MFDC secessionist campaign"	"Senegal"	1982.0	1983.0	"Gov't of Senegal"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	357.0	3000.0	4.932671500355892E-4	1.0	0.0	1.0	0.0	0.0	0.0
+386.0	"Casamance Conflict"	"Senegal"	1982.0	2014.0	"Gov't of Senegal"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	11449.0	3000.0	4.932671500355892E-4	1.0	0.0		1.0	1.0	1.0
+13.0	"anti-Diouf campaign"	"Senegal"	2000.0	2000.0	"Diouf govt"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	16.0	5000.0	5.058654082354079E-4	1.0	0.0	0.0	1.0	0.0	0.0
+23.0	"anti-Milosevic"	"Serbia"	1996.0	2000.0	"Milosevic regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1418.0	200000.0	0.02660867394875116	1.0	1.0	0.0	0.0	0.0	1.0
+180.0	"RUF"	"Sierra Leone"	1991.0	1996.0	"Republican government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1858.0	5000.0	0.0011675832194939695	1.0	0.0		0.0	0.0	1.0
+179.0	"Public Against Violence"	"Slovakia"	1989.0	1992.0	"Czech communist government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	933.0	70000.0	0.013195059166645304	0.0	0.0	0.0	0.0	0.0	0.0
+205.0	"Slovenian independence"	"Slovenia"	1990.0	1991.0	"Yugoslavian rule"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	275.0	900000.0	0.4501285116900875	1.0	1.0	1.0	0.0	1.0	0.0
+208.0	"clan factions; SNM"	"Somalia"	1982.0	1991.0	"Siad Barre regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3131.0	2000.0	2.682426458596211E-4	1.0	1.0		1.0	0.0	1.0
+357.0	"Somali Civil War"	"Somalia"	1991.0	2000.0	"Government of Somalia"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3085.0	10000.0	0.0013540198683459402	1.0	1.0		0.0	1.0	0.0
+209.0	"Somalia militia insurgencies"	"Somalia"	1993.0	1994.0	"U.S. and UN relief missions"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	346.0	6000.0	7.978923938380898E-4	1.0	0.0		1.0	1.0	0.0
+344.0	"Islamist insurgency"	"Somalia"	2006.0	2014.0	"Somali government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	2625.0	7000.0	4.610746002236212E-4	1.0	0.0		1.0	1.0	1.0
+210.0	"First Defiance Campaign"	"South Africa"	1952.0	1961.0	"Apartheid"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0	3282.0	10000.0	5.586592178770949E-4	1.0	0.0	0.0	0.0	0.0	0.0
+211.0	"South African Second Defiance Campaign"	"South Africa"	1984.0	1994.0	"Apartheid"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0	3652.0	200000.0	0.00493114944230549	1.0	0.0	1.0	0.0	0.0	1.0
+214.0	"Student Revolution"	"South Korea"	1960.0	1960.0	"Rhee regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	43.0	100000.0	0.004	0.0	1.0	0.0	0.0	1.0	0.0
+212.0	"South Korean anti-junta"	"South Korea"	1979.0	1980.0	"military junta"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	223.0	100000.0	0.0026246719160104987	1.0	0.0	1.0	0.0	0.0	0.0
+213.0	"South Korean anti-military"	"South Korea"	1986.0	1987.0	"Mil govt"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	510.0	1000000.0	0.023980815347721823	1.0	0.0	1.0	0.0	0.0	0.0
+336.0	"Anti-Roh Tae Woo"	"South Korea"	1988.0	1992.0	"President Roh Tae-Woo"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1633.0	130000.0	0.0029715669955094138	1.0	0.0	1.0	0.0	0.0	0.0
+322.0	"SPLM/A"	"South Sudan"	2011.0	2014.0	"South Sudan government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	864.0	42700.0	0.0033051958220157466	1.0	1.0		1.0	1.0	1.0
+280.0	"South Vietnam Anti-Military Govt"	"South Vietnam"	1964.0	1966.0	"The Military Government of South Vietnam"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	676.0	25000.0	6.510416666666666E-4	1.0	1.0	1.0	1.0	1.0	0.0
+73.0	"ETA"	"Spain"	1968.0	2011.0	"Spanish occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	15775.0	3000.0	6.41811489824817E-5	0.0	0.0		1.0	0.0	0.0
+108.0	"JVP"	"Sri Lanka"	1971.0	1971.0	"Sri Lankan government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	40.0	2100.0	1.640625E-4	1.0	0.0		0.0	1.0	0.0
+125.0	"LTTE"	"Sri Lanka"	1983.0	2009.0	"Sri Lankan occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	9430.0	6000.0	3.0048076923076925E-4	1.0	0.0		1.0	1.0	0.0
+393.0	"JVP II"	"Sri Lanka"	1987.0	1990.0	"Gov't of Sri Lanka"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1251.0	1200.0	6.92408211338219E-5	1.0	0.0		1.0	0.0	0.0
+31.0	"Anya Nya"	"Sudan"	1963.0	1972.0	"Sudanese government"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	3072.0	10000.0	6.849315068493151E-4	1.0	0.0		0.0	1.0	1.0
+187.0	"SPLA-Garang faction"	"Sudan"	1983.0	2005.0	"Sudanese government"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	7725.0	2500.0	8.087496620235162E-5	1.0	1.0		1.0	1.0	0.0
+18.0	"anti-Jaafar"	"Sudan"	1985.0	1985.0	"Jaafar Nimiery"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	12.0	2000000.0	0.0851063829787234	1.0	1.0	0.0	0.0	0.0	0.0
+107.0	"JEM/SLA"	"Sudan"	2003.0	2012.0	"Janjaweed militia"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	3596.0	10000.0	2.7785347741406883E-4	1.0	0.0		1.0	0.0	1.0
+402.0	"South Kordofan and Blue Nile Conflict"	"Sudan"	2011.0	2014.0	"Government of Sudan (Bashir Regime)"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	939.0	52000.0	0.001175201795708344	1.0	1.0		1.0	0.0	1.0
+323.0	"Anti-al-Bashir Government"	"Sudan"	2011.0	2013.0	"Omar al-Bashir's Regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	980.0	4800.0	1.3025809175477678E-4	1.0	0.0	0.0	0.0	0.0	0.0
+307.0	"Anti-Bouterse"	"Suriname"	1983.0	1984.0	"Military dictatorship of Desiré Delano \"Dési\" Bouterse"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	30.0	2200.0	0.005933949744840161	0.0	0.0	0.0	0.0	0.0	0.0
+281.0	"Swaziland Anti-Monarchy Protests"	"Swaziland"	2011.0	2011.0	"Mswati Monarchy"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	263.0	20001.0	0.016496255124924017	1.0	0.0	0.0	0.0	0.0	0.0
+141.0	"Muslim Brotherhood"	"Syria"	1980.0	1982.0	"Syrian regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	784.0	30000.0	0.0031879304104545413	1.0	0.0		0.0	0.0	0.0
+282.0	"Syrian Civil War"	"Syria"	2011.0	2014.0	"Assad regime"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	792.0	140000.0	0.007656797401195456	1.0	1.0	0.0	0.0	1.0	1.0
+282.0	"Syrian Uprising"	"Syria"	2011.0	2011.0	"Assad regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	230.0	100000.0	0.0047929463933389935	1.0	1.0	1.0	1.0	1.0	1.0
+356.0	"Islamic State"	"Syria"	2013.0	2014.0	"Syrian government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	267.0	25000.0	0.0012375270269715055	1.0	0.0		1.0	1.0	1.0
+215.0	"Taiwan pro-democracy"	"Taiwan"	1979.0	1985.0	"autocratic regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	2168.0	10000.0	5.181347150259067E-4	1.0	0.0	0.0	0.0	0.0	0.0
+174.0	"Popular Democratic Army (UTO)"	"Tajikistan"	1992.0	1997.0	"Rakhmanov regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1883.0	16000.0	0.002696198124726799	1.0	0.0		1.0	1.0	0.0
+221.0	"communist rebels"	"Thailand"	1965.0	1982.0	"Thai government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	6361.0	12500.0	2.5614754098360657E-4	1.0	0.0		1.0	1.0	1.0
+223.0	"student protests"	"Thailand"	1973.0	1973.0	"military dictatorship"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	38.0	250000.0	0.00620347394540943	1.0	0.0	0.0	1.0	0.0	0.0
+222.0	"Thai pro-democracy movement"	"Thailand"	1992.0	1992.0	"Suchinda regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	75.0	200000.0	0.0034579415240649043	1.0	0.0	0.0	0.0	0.0	0.0
+354.0	"Patani insurgency"	"Thailand"	2004.0	2014.0	"Thai Government"	0.0	0.0	1.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	3649.0	2001.0	2.8923218077898798E-5	1.0	0.0	0.0	0.0	0.0	0.0
+30.0	"anti-Thaksin campaign"	"Thailand"	2005.0	2006.0	"Thaksin regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	587.0	100000.0	0.0015191989373385738	1.0	1.0	0.0	0.0	0.0	0.0
+283.0	"Anti-Military Government Campaign"	"Thailand"	2007.0	2007.0	"Military-installed government"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	67.0	13000.0	1.9638763081210138E-4	1.0	0.0	0.0	1.0	0.0	0.0
+284.0	"People's Alliance for Democracy Campaign"	"Thailand"	2008.0	2008.0	"People Power Party Government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	192.0	100000.0	0.0015027253426814872	1.0	0.0	1.0	1.0	0.0	0.0
+324.0	"Red Shirt Campaign"	"Thailand"	2008.0	2010.0	"Abhisit Vejjajiva Government"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	507.0	200000.0	0.0029758004337764776	1.0	0.0	1.0	1.0	0.0	0.0
+308.0	"Civil Movement for Democracy"	"Thailand"	2013.0	2014.0	"Yingluck government"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	188.0	180000.0	0.002630933830084822	1.0	1.0	1.0	0.0	0.0	0.0
+227.0	"Tibetan independence movement"	"Tibet"	1987.0	1989.0	"Chinese occupation"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	525.0	10000.0	8.92857142857143E-6	1.0	0.0	0.0	0.0	1.0	0.0
+285.0	"Anti-Eyadema"	"Togo"	1991.0	1991.0	"Gen. Eyadame"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	6.0	10000.0	0.0025758119410005122	1.0	0.0	0.0	0.0	0.0	0.0
+286.0	"Togo anti-Gnassingbe/Coup Crisis"	"Togo"	2005.0	2005.0	"President Faure Gnassingbe Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	13.0	25000.0	0.004398877547214033	1.0	0.0	0.0	0.0	0.0	0.0
+309.0	"Let's Save Togo (Anti-Gnassingbe)"	"Togo"	2012.0	2013.0	"President Faure Gnassingbe Regime"	0.0	0.0	1.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	345.0	20000.0	0.0028397199581766046	1.0	0.0	0.0	0.0	0.0	0.0
+310.0	"Pro-Democracy Protests"	"Tonga"	2005.0	2006.0	"Government"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	540.0	3000.0	0.029501716016481626	1.0	0.0	0.0	0.0	1.0	0.0
+232.0	"Tunisian independence movement"	"Tunisia"	1952.0	1954.0	"French occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	925.0	1600.0	4.2336363999590393E-4	1.0	0.0		0.0	0.0	0.0
+311.0	"Anti-Ben Ali Campaign (Jasmin Revolution)"	"Tunisia"	2010.0	2011.0	"Government (Ben Ali Regime)"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	310.0	100000.0	0.009292413385647142	1.0	1.0	0.0	1.0	0.0	0.0
+312.0	"Anti-Islamist Government Protests"	"Tunisia"	2013.0	2013.0	"Council negotiating end to political crisis"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	153.0	2000000.0	0.17947025406168104	1.0	0.0	1.0	0.0	0.0	0.0
+251.0	"Kurdish rebellion"	"Turkey"	1978.0	1999.0	"Turkish government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	5299.0	5000.0	8.027315219792868E-5	1.0	0.0		1.0	0.0	0.0
+313.0	"Anti-Erdogan"	"Turkey"	2013.0	2014.0	"Erdogan government"	0.0	0.0	1.0	1.0	1.0	0.0	1.0	0.0	0.0	0.0	558.0	15000.0	1.9164070403582037E-4	1.0	0.0	0.0	0.0	0.0	0.0
+46.0	"Buganda Tribe"	"Uganda"	1966.0	1966.0	"Uganda government"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	9.0	1000.0	1.1573869120141739E-4	0.0	0.0		0.0	0.0	0.0
+145.0	"National Resistance Army"	"Uganda"	1980.0	1986.0	"Okello regime"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1927.0	9000.0	6.122448979591836E-4	1.0	1.0		0.0	0.0	0.0
+124.0	"LRA"	"Uganda"	1986.0	2014.0	"Museveni government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	11219.0	4000.0	9.332067096255932E-5	1.0	0.0		0.0	1.0	0.0
+398.0	"UPA"	"Uganda"	1987.0	1992.0	"Ugandan govt"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1819.0	1500.0	8.07688026945765E-5	1.0	0.0		1.0	0.0	0.0
+427.0	"ADF Insurgency"	"Uganda"	1996.0	2014.0	"Ugandan govt"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	6257.0	4000.0	9.004413310584883E-5	1.0	0.0		1.0	1.0	0.0
+287.0	"Students Union Protests"	"Ukraine"	1990.0	1990.0	"Masol Regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	22.0	350000.0	0.00681331397080347	0.0	0.0	0.0	0.0	0.0	0.0
+159.0	"Orange Revolution"	"Ukraine"	2000.0	2005.0	"Kuchma regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1472.0	500000.0	0.010537052491380691	1.0	1.0	0.0	0.0	1.0	1.0
+314.0	"Euromaidan"	"Ukraine"	2013.0	2014.0	"President Yanukovych"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	94.0	1000000.0	0.022088734111656388	1.0	1.0	1.0	1.0	1.0	0.0
+234.0	"Tupamaros"	"Uruguay"	1963.0	1972.0	"Uruguay government"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	3184.0	3000.0	0.0010602482535944182	1.0	1.0		1.0	0.0	1.0
+239.0	"Uruguay anti-military campaign"	"Uruguay"	1984.0	1985.0	"Military rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	408.0	50000.0	0.01662084852755903	1.0	0.0	0.0	1.0	0.0	0.0
+238.0	"Ukrainian rebellion"	"USSR"	1946.0	1951.0	"Communist regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2190.0	50000.0	4.807692307692308E-4	1.0	0.0		1.0	0.0	0.0
+19.0	"anti-Jimenez campaign"	"Venezuela"	1958.0	1958.0	"Jimenez dictatorship"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	12.0	7200.0	0.0010311823823635732	1.0	1.0	0.0	0.0	1.0	0.0
+34.0	"Armed Forces for National Liberation (FALN)"	"Venezuela"	1962.0	1965.0	"Betancourt regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1337.0	2000.0	2.2056224625002826E-4	0.0	1.0		0.0	0.0	0.0
+387.0	"Military Forces of Hugo Chavez"	"Venezuela"	1992.0	1992.0	"Government of Venezuela"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	297.0	1400.0	6.73076923076923E-5	1.0	1.0		0.0	1.0	0.0
+252.0	"anti-coup"	"Venezuela"	2002.0	2002.0	"anti-Chavez coup"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	3.0	200000.0	0.00787131966609862	1.0	1.0	1.0	0.0	0.0	0.0
+100.0	"Indochina revolt"	"Vietnam"	1945.0	1954.0	"French occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	3379.0	6000.0	2.2058823529411765E-4	1.0	0.0		0.0	0.0	0.0
+156.0	"North Vietnam (National Liberation Front)"	"Vietnam"	1960.0	1975.0	"government of South Vietnam"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	5598.0	40000.0	8.316008316008316E-4	1.0	1.0		0.0	1.0	1.0
+242.0	"West Papua rebels"	"West Papua"	1965.0	1978.0	"Indonesian occupation"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	4645.0	10000.0	6.802721088435374E-5	1.0	0.0		1.0	0.0	0.0
+242.0	"West Papua self-determination struggle"	"West Papua"	1979.0	2014.0	"Indonesian occupation"	0.0	0.0	1.0	1.0	1.0	0.0	0.0	1.0	0.0	0.0	12783.0	10000.0	3.7481964615676055E-5	1.0	0.0	1.0	1.0	0.0	0.0
+243.0	"Western Sahara Freedom Movement (POLISARIO)"	"Western Sahara"	1975.0	1989.0	"Moroccan occupation"	0.0	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	5053.0	1500.0	6.224066390041494E-5	0.0	1.0		0.0	0.0	0.0
+340.0	"Renewed Western Sahara Independence Protests"	"Western Sahara"	2010.0	2014.0	"Moroccan Government"	0.0	0.0	1.0	1.0	1.0	0.0	0.0	1.0	0.0	0.0	1392.0	50000.0	0.0013815282216512828	1.0	0.0	1.0	1.0	1.0	1.0
+246.0	"Yemeni insurgency"	"Yemen"	1955.0	1957.0	"British and Aden administration"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	988.0	1500.0	2.728220163729586E-4	1.0	0.0		0.0	0.0	0.0
+79.0	"FLOSY, NLF in Aden"	"Yemen"	1963.0	1967.0	"UK occupation"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	1737.0	27000.0	0.004005468205854363	1.0	0.0		1.0	0.0	0.0
+389.0	"NDF"	"Yemen"	1979.0	1982.0	"Government of Yemen"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1245.0	3000.0	3.4489482087542584E-4	1.0	0.0		0.0	0.0	0.0
+258.0	"Al-Houthi Rebellion"	"Yemen"	2004.0	2014.0	"Yemen government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	3857.0	100000.0	0.0037152337251678885	1.0	1.0	0.0	1.0	1.0	1.0
+256.0	"South Yemen Secessionist Movement"	"Yemen"	2007.0	2014.0	"Government"	0.0	1.0	0.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	2522.0	300000.0	0.0114301707816107	1.0	1.0	1.0	1.0	0.0	0.0
+341.0	"Al Qaeda in the Arabian Peninsula"	"Yemen"	2009.0	2014.0	"Yemen government"	0.0	0.0	1.0	1.0	0.0	1.0	1.0	0.0	0.0	0.0	1475.0	1000.0	3.458378620801373E-5	1.0	0.0		1.0	0.0	1.0
+316.0	"Anti Ali Adduallah Saleh Campaign"	"Yemen"	2011.0	2012.0	"Government (Saleh Regime)"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	407.0	100000.0	0.004014457023210266	1.0	1.0	1.0	1.0	0.0	0.0
+244.0	"Yahya Family revolt"	"Yemen Arab Republic"	1948.0	1948.0	"countercoup"	1.0	0.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	32.0	2000.0	4.749465685110425E-4	0.0	0.0		0.0	0.0	0.0
+184.0	"Royalists"	"Yemen Arab Republic"	1962.0	1969.0	"al-Sallal regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2484.0	220000.0	0.03152695805696491	1.0	0.0		0.0	1.0	1.0
+245.0	"leftists"	"Yemen People's Republic"	1986.0	1986.0	"Ali Nasir regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	16.0	10000.0	9.174311926605505E-4	1.0	1.0		0.0	0.0	0.0
+247.0	"student protests"	"Yugoslavia"	1968.0	1968.0	"Communist regime"	0.0	1.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	29.0	10000.0	0.0011452917057974666	0.0	0.0	0.0	0.0	1.0	0.0
+60.0	"Croatian nationalists"	"Yugoslavia"	1970.0	1971.0	"Yugoslav government"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	425.0	10000.0	0.001112681227955003	1.0	0.0	0.0	0.0	1.0	0.0
+120.0	"Kosovo Albanian nationalist movement"	"Yugoslavia"	1981.0	1981.0	"Yugoslav government"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	247.0	7000.0	7.057163020465773E-4	1.0	0.0	0.0	0.0	1.0	0.0
+119.0	"Kosovo Albanian"	"Yugoslavia"	1988.0	1998.0	"Serbian rule"	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	1.0	0.0	3390.0	10000.0	9.433962264150943E-4	1.0	0.0	1.0	0.0	0.0	1.0
+61.0	"Croats"	"Yugoslavia"	1991.0	1992.0	"Serb government"	1.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	245.0	12500.0	0.0011904761904761906	1.0	0.0		1.0	0.0	0.0
+116.0	"Katanga-led leftists"	"Zaire/DRC"	1960.0	1965.0	"secession from DRC"	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	1901.0	10000.0	5.376344086021505E-4	1.0	0.0		1.0	0.0	1.0
+78.0	"FLNC"	"Zaire/DRC"	1977.0	1978.0	"DRC/Zaire regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	293.0	4000.0	1.509433962264151E-4	1.0	0.0		0.0	0.0	0.0
+189.0	"Sacred Union"	"Zaire/DRC"	1991.0	1993.0	"Mobutu regime"	0.0	0.0	1.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	864.0	1000.0	2.575089944672905E-5	1.0	0.0		1.0	0.0	0.0
+249.0	"Zambian independence movement"	"Zambia"	1961.0	1963.0	"British rule"	1.0	0.0	0.0	0.0	1.0	0.0	0.0	1.0	0.0	0.0	913.0	1000000.0	0.28506271379703535	0.0	1.0	0.0	0.0	0.0	0.0
+248.0	"Zambia anti-single party rule"	"Zambia"	1990.0	1991.0	"One-party rule"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	488.0	23000.0	0.0027913529226436004	1.0	0.0	0.0	1.0	0.0	0.0
+12.0	"anti-Chiluba campaign"	"Zambia"	2001.0	2001.0	"Chiluba regime"	1.0	0.0	0.0	0.0	1.0	0.0	1.0	0.0	0.0	0.0	213.0	3000.0	2.771586617855947E-4	0.0	0.0	0.0	0.0	0.0	0.0
+250.0	"Zimbabwe African People's Union"	"Zimbabwe"	1972.0	1979.0	"Smith/Muzorena regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	2556.0	1000.0	1.4519832057814487E-4	1.0	0.0		0.0	1.0	0.0
+161.0	"PF-ZAPU guerillas"	"Zimbabwe"	1983.0	1987.0	"Mugabe regime"	0.0	1.0	0.0	0.0	0.0	1.0	1.0	0.0	0.0	0.0	1821.0	5000.0	5.424650893879399E-4	1.0	0.0		0.0	0.0	0.0
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			
+	""	""			""																			

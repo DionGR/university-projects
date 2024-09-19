@@ -1,0 +1,6 @@
+Διονύσιος Ρηγάτος - 3200262
+Χριστόφορος Παπαποστόλου - 3150208
+Endpoint: auebserver22.postgres.database.azure.com
+Username: examiner@auebserver22
+Password: Trifonas1!
+Database: MovieLens

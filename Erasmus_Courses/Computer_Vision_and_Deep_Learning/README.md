@@ -1,0 +1,1 @@
+The main project can be found in the repository [3d-segmentation-coronary-arteries-asoca](https://github.com/DionGR/3d-segmentation-coronary-arteries-asoca/tree/main).

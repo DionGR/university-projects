@@ -1,0 +1,56 @@
+body{
+  background-image: url("media/general/background.png");
+  background-attachment: fixed;
+    background-size: cover;
+  animation: shrink 5s infinite alternate steps(60);
+  height: 100%;
+    color: rgb(9, 78, 78); font-size:medium; background-color:rgba(224, 255, 255, 0.746) ;font-family: "Trebuchet MS";
+}
+h1{
+    background-color:rgba(112, 149, 219, 0.329); border: solid rgb(3, 73, 69); width:460px;font:100 ; max-width: 35%; margin: auto; text-align: center; margin-top: 40px;
+}
+ul{
+     font-size: large; width: 200px;font:100 ; max-width:200px; float: left; margin-top: 110px; margin-left: 6%; margin-right: -8%;
+}  
+h3{
+    color: rgb(9, 78, 78); border: 1px solid blueviolet; float: right;
+} 
+table{
+    
+    min-height: 110%; height: 400px; border: 2px solid rgb(3, 73, 69); margin-top: 30px; margin-left: 10%; border-collapse:separate; width: 80%; text-align: center; vertical-align: middle; 
+}
+th{
+    background-color: rgba(112, 149, 219, 0.329) ;
+}
+td{
+    font-size: large;
+}
+table, th, td{
+    border: 2px solid rgb(3, 73, 69);
+}
+.bar a {
+    float: left;display: block;color: white;text-align: center;padding: 14px 16px; text-size-adjust: 100% ;
+    
+  }
+.bar {
+    overflow: hidden; background-color:rgba(25, 37, 61, 0.637); min-width: 30%; 
+  }  
+.active {
+    background-color: rgba(23, 23, 53, 0.787);
+}
+#mid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.contacttable {
+    border: 2px solid #034945; margin-top: 50px; margin-left: 20px; border-collapse:separate; text-align: center; vertical-align: middle; 
+  }
+footer {
+    height: 35px;
+    margin: auto;
+    width: 800px;
+    text-align:center;
+    padding:10px;
+    color:#034945;
+}

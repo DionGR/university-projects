@@ -1,0 +1,11 @@
+Cython>=0.28.
+scikit-image
+ujson
+pybind11
+cloudpickle
+Pillow==9.5.0
+pycocotools
+easydict
+tensorboard
+omegaconf
+vizer
