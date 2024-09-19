@@ -1,2 +1,0 @@
-pip install SpeechRecognition
-pip install discord.py
