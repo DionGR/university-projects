@@ -19,7 +19,7 @@ A graduate Computer Vision & Deep Learning project that focuses on sophisticated
 
 A graduate Natural Language Processing project that focuses on an end-to-end analysis using topic modeling for Greek political texts. 
 
-#### Rogets Tehsaurus Analysis [[link](https://github.com/DionGR/university-projects/blob/main/Semester_7/Applied_Machine_Learning/Rogets_Thesaurus_Analysis/rogets_thesaurus.ipynb)]
+#### Rogets Thesaurus Analysis [[link](https://github.com/DionGR/university-projects/blob/main/Semester_7/Applied_Machine_Learning/Rogets_Thesaurus_Analysis/rogets_thesaurus.ipynb)]
 
 A Natural Language Processing project that analyzes relationships between the contents of Roget's Thesaurus, using various clustering/classification methods with embeddings.
 
